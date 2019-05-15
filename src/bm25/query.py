@@ -4,7 +4,6 @@ from .invdx import build_data_structures
 from .rank import score_BM25
 import operator
 
-
 class QueryProcessor:
 	def __init__(self, queries, corpus):
 		self.queries = queries

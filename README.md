@@ -11,4 +11,9 @@ There are 4 main modules of the program: parser, query processor, ranking functi
 How To Run
 ----------
 
+Install spacy German model:
+```bash
+python3 -m spacy download de
+```
+
 To run, simply run `$ python main.py` in the src folder. 

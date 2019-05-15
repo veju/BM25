@@ -2,6 +2,9 @@ __author__ = 'Nick Hirakawa'
 
 import re
 
+import spacy
+
+nlp = spacy.load("de")
 
 class CorpusParser:
 
@@ -31,8 +34,8 @@ class QueryParser:
 
 	def parse(self):
 		with open(self.filename) as f:
-			lines = ''.join(f.readlines())
-		self.queries = [x.rstrip().split() for x in lines.split('\n')[:-1]]
+			for line in f.readlines():
+				self.queries.append([token.lemma_ for token in nlp(line)])
 
 	def get_queries(self):
 		return self.queries
