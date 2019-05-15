@@ -3,12 +3,13 @@ __author__ = 'Nick Hirakawa'
 
 from parse import *
 from query import QueryProcessor
+from specparser import SpecParser
 import operator
 
 
 def main():
 	qp = QueryParser(filename='../text/queries.txt')
-	cp = CorpusParser(filename='../text/corpus.txt')
+	cp = SpecParser(filename='../text/corpus.txt')
 	qp.parse()
 	queries = qp.get_queries()
 	cp.parse()
