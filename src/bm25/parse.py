@@ -40,4 +40,4 @@ class QueryParser:
 
 if __name__ == '__main__':
 	qp = QueryParser('text/queries.txt')
-	print qp.get_queries()
+	print(qp.get_queries())

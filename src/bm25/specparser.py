@@ -1,6 +1,7 @@
 __author__ = 'Verena Pongratz'
 
 import re
+import codecs
 
 
 class SpecParser:
@@ -11,7 +12,7 @@ class SpecParser:
 		self.corpus = dict()
 
 	def parse(self):
-		with open(self.filename) as f:
+		with codecs.open(self.filename) as f:
 			current_chapter = ""
 			current_chapter_tokens = []
 			for line in f.readlines():
@@ -19,13 +20,19 @@ class SpecParser:
 				if self.regex.match(line) is not None:
 					if current_chapter_tokens and current_chapter:
 						self.corpus[current_chapter] = current_chapter_tokens
-						print current_chapter, current_chapter_tokens
 					current_chapter = line.strip()
 					current_chapter_tokens = []
 				else:
 					current_chapter_tokens += line.split()
 			if current_chapter_tokens:
 				self.corpus[current_chapter] = current_chapter_tokens
+		print("Found", len(self.corpus), "docs:")
+		total_num_tokens = 0
+		for chapter_name, chapter_tokens in self.corpus.items():
+			total_num_tokens += len(chapter_tokens)
+			print("  *", chapter_name, "(", len(chapter_tokens), "tokens)")
+		avg_num_tokens = float(total_num_tokens)/float(len(self.corpus))
+		print("Average token count per document:", avg_num_tokens)
 
 	def get_corpus(self):
 		return self.corpus
