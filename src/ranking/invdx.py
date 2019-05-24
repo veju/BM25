@@ -1,6 +1,7 @@
-#invdx.py
-# An inverted index
-__author__ = 'Nick Hirakawa'
+__author__ = 'Nick Hirakawa, Verena Pongratz'
+
+
+from collections import defaultdict
 
 
 class InvertedIndex:
@@ -70,13 +71,21 @@ class DocumentLengthTable:
 def build_data_structures(corpus):
 	idx = InvertedIndex()
 	dlt = DocumentLengthTable()
+	dtf = defaultdict(int)
+
 	for docid in corpus:
 
-		#build inverted index
+		# build inverted index. make sure to only add documents
+		#  to document-term-frequency dictionary once.
+		seen_words = set()
 		for word in corpus[docid]:
 			idx.add(str(word), str(docid))
+			if word not in seen_words:
+				dtf[word] += 1
+				seen_words.add(word)
 
 		#build document length table
 		length = len(corpus[str(docid)])
 		dlt.add(docid, length)
-	return idx, dlt
+
+	return idx, dlt, dtf

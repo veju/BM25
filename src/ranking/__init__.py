@@ -1,3 +1,3 @@
-__author__ = 'Nick Hirakawa'
+__author__ = 'Nick Hirakawa, Verena Pongratz'
 
 __all__ = ['invdx', 'parse', 'query', 'rank']

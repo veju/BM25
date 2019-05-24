@@ -28,11 +28,11 @@ class SpecParser:
 			print("Found", self.json_filename, "!")
 			with codecs.open(self.json_filename) as file:
 				self.corpus = json.load(file)
-		print("Read", len(self.corpus), "docs:")
+		print("Read", len(self.corpus), "docs.")
 		total_num_tokens = 0
 		for chapter_name, chapter_tokens in self.corpus.items():
 			total_num_tokens += len(chapter_tokens)
-			print("  *", chapter_name, "(", len(chapter_tokens), "tokens)")
+		#	print("  *", chapter_name, "(", len(chapter_tokens), "tokens)")
 		avg_num_tokens = float(total_num_tokens)/float(len(self.corpus))
 		print("Average token count per document:", avg_num_tokens)
 

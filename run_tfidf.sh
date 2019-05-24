@@ -1,3 +1,3 @@
 
 export PYTHONPATH=$PWD/src
-python3 -m ranking bm25
+python3 -m ranking tfidf

@@ -1,4 +1,4 @@
-__author__ = 'Nick Hirakawa'
+__author__ = 'Nick Hirakawa, Verena Pongratz'
 
 import re
 
