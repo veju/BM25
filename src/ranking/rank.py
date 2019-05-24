@@ -18,7 +18,7 @@ def score_TFIDF(f, n, dtf):
     * `n`: Number of documents in the corpus.
     * `dtf`: Document Term Frequency (number of documents that contain the term).
     """
-    return f * log(float(n)/float(dtf))
+    return log(f) * log(float(n)/float(dtf))
 
 
 def score_BM25(n, f, qf, r, N, dl, avdl):
