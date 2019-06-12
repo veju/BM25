@@ -2,14 +2,17 @@ __author__ = 'Nick Hirakawa, Verena Pongratz'
 
 from .invdx import build_data_structures
 from .rank import score_BM25, score_TFIDF
+from .lm import score_lm_kld
+from collections import defaultdict
 import operator
+
 
 class QueryProcessor:
 	def __init__(self, queries, corpus, score_function="bm25"):
 		self.queries = queries
 		self.corpus = corpus
-		self.index, self.dlt, self.dtf = build_data_structures(corpus)
-		if score_function not in ("bm25", "tfidf"):
+		self.index, self.dlt, self.dtf, self.tdf = build_data_structures(corpus)
+		if score_function not in ("bm25", "tfidf", "lm"):
 			print(f"ERROR: Unknown score function {score_function}! Using BM25.")
 			score_function = "bm25"
 		self.score_function = score_function
@@ -21,6 +24,8 @@ class QueryProcessor:
 		return results
 
 	def run_query(self, query):
+		if self.score_function == "lm":
+			return self.run_query_lm(query)
 		query_result = dict()
 		for term in query:
 			if term in self.index:
@@ -38,4 +43,25 @@ class QueryProcessor:
 						query_result[docid] = score
 			else:
 				print("Term", term, "not present in index!")
+		return query_result
+
+	def run_query_lm(self, query):
+		query_result = dict()
+
+		# Create query term frequency distribution
+		query_term_fd = defaultdict(lambda: 1)
+		for term in query:
+			query_term_fd[term] += 1
+
+		# Go over all documents that contain a term from the query
+		seen_docs = set()
+		for term in query:
+			if term in self.index:
+				doc_dict = self.index[term] # retrieve index entry
+				for docid in doc_dict:
+					if docid not in seen_docs:
+						seen_docs.add(docid)
+						query_result[docid] = score_lm_kld(query_term_fd, self.tdf[docid])
+
+		# Calculate score as lowest KL-Divergence between query and document
 		return query_result

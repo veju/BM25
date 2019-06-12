@@ -71,7 +71,8 @@ class DocumentLengthTable:
 def build_data_structures(corpus):
 	idx = InvertedIndex()
 	dlt = DocumentLengthTable()
-	dtf = defaultdict(int)
+	dtf = defaultdict(int)  # No. of documents per term
+	tdf = defaultdict(lambda: defaultdict(lambda: 1)) # Term freq. dist per doc
 
 	for docid in corpus:
 
@@ -80,6 +81,7 @@ def build_data_structures(corpus):
 		seen_words = set()
 		for word in corpus[docid]:
 			idx.add(str(word), str(docid))
+			tdf[docid][word] += 1
 			if word not in seen_words:
 				dtf[word] += 1
 				seen_words.add(word)
@@ -88,4 +90,4 @@ def build_data_structures(corpus):
 		length = len(corpus[str(docid)])
 		dlt.add(docid, length)
 
-	return idx, dlt, dtf
+	return idx, dlt, dtf, tdf
