@@ -3,7 +3,7 @@ __author__ = 'Nick Hirakawa, Verena Pongratz'
 
 from .parse import *
 from .query import QueryProcessor
-from .specparser import SpecParser
+from .specparser import SpecParser, SpecParserBert
 import operator
 import sys
 
@@ -15,7 +15,10 @@ if len(sys.argv) > 1:
 def main():
 	global score_function
 	qp = QueryParser(filename='text/queries.txt')
-	cp = SpecParser(filename='text/corpus.txt')
+	if score_function == "bert":
+		cp = SpecParserBert(filename='text/corpus.txt')
+	else:
+		cp = SpecParser(filename='text/corpus.txt')
 	qp.parse()
 	queries = qp.get_queries()
 	cp.parse()

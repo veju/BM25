@@ -12,7 +12,7 @@ class QueryProcessor:
 		self.queries = queries
 		self.corpus = corpus
 		self.index, self.dlt, self.dtf, self.tdf = build_data_structures(corpus)
-		if score_function not in ("bm25", "tfidf", "lm"):
+		if score_function not in ("bm25", "tfidf", "lm", "bert"):
 			print(f"ERROR: Unknown score function {score_function}! Using BM25.")
 			score_function = "bm25"
 		self.score_function = score_function
