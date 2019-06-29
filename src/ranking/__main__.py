@@ -6,36 +6,44 @@ from .query import QueryProcessor
 from .specparser import SpecParser, SpecParserBert
 import operator
 import sys
+import argparse
 
-score_function = "bm25"
-if len(sys.argv) > 1:
-	score_function = sys.argv[1]
+
+parser = argparse.ArgumentParser(description='Run diverse IR scoring functions on diverse doc/question sets.')
+parser.add_argument('--model', dest='model', default='bm25', help='IR model to use', choices=['bm25', 'lm', 'tfidf', 'bert'])
+parser.add_argument('--queries', dest='queries', help='Path to query file (One query per line)')
+parser.add_argument('--docs', dest='docs', default='bm25', help="""
+Path to document file. Will be parsed: Documents begin with heading acc. to
+a regular expression: /^[ \t]*([0-9]\.)*[0-9]+[ \t]+[A-Za-z][^\t\n]*$/;
+content under heading is adopted as document content.
+""")
+args = parser.parse_args()
 
 
 def main():
-	global score_function
-	qp = QueryParser(filename='text/queries.txt')
-	if score_function == "bert":
-		cp = SpecParserBert(filename='text/corpus.txt')
-	else:
-		cp = SpecParser(filename='text/corpus.txt')
-	qp.parse()
-	queries = qp.get_queries()
-	cp.parse()
-	corpus = cp.get_corpus()
-	proc = QueryProcessor(queries, corpus, score_function)
-	results = proc.run()
-	qid = 0
-	for result in results:
-		sorted_x = sorted(iter(result.items()), key=operator.itemgetter(1))
-		sorted_x.reverse()
-		index = 0
-		for i in sorted_x[:100]:
-			tmp = (qid, index, i[0], str(i[1])[:5], score_function)
-			print('{:>1}\t{:>4}\t{:>2}\t{:>12}\t{}'.format(*tmp))
-			index += 1
-		qid += 1
+    global args
+    qp = QueryParser(filename=args.queries)
+    if args.model == "bert":
+        cp = SpecParserBert(filename=args.docs)
+    else:
+        cp = SpecParser(filename=args.docs)
+    qp.parse()
+    queries = qp.get_queries()
+    cp.parse()
+    corpus = cp.get_corpus()
+    proc = QueryProcessor(queries, corpus, args.model)
+    results = proc.run()
+    qid = 0
+    for result in results:
+        sorted_x = sorted(iter(result.items()), key=operator.itemgetter(1))
+        sorted_x.reverse()
+        index = 0
+        for i in sorted_x[:100]:
+            tmp = (qid, index, i[0], str(i[1])[:5], args.model)
+            print('{:>1}\t{:>4}\t{:>2}\t{:>12}\t{}'.format(*tmp))
+            index += 1
+        qid += 1
 
 
 if __name__ == '__main__':
-	main()
+    main()

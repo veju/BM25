@@ -88,18 +88,18 @@ class SpecParserBert(SpecParser):
 		super().parse()
 
 	def tokenize(self, paragraph):
-		tokens_and_embeddings = self.bert(paragraph.lower())
-		return tuple(zip(tokens_and_embeddings))
+		tokens_and_embeddings = self.bert([paragraph.lower()])
+		return tuple(zip(tokens_and_embeddings[0]))
 
 	def after_create(self, corpus):
 		print("Generating average BERT embeddings ...")
 		for docid, word_and_embedding_list in corpus.items():
-			words_and_embeddings = tuple(zip(*word_and_embedding_list))
+			words_and_embeddings = tuple(zip(*word_and_embedding_list))[0]
 			corpus[docid] = words_and_embeddings[0]
 			self.doc_vec_corpus[docid] = word_vecs_to_document_vec(words_and_embeddings[1])
 		with codecs.open(self.bert_json_filename, 'w') as json_output:
 			print("Writing to", self.bert_json_filename)
-			json.dump(self.corpus, json_output, indent=2)
+			json.dump(self.doc_vec_corpus, json_output, indent=2)
 		super().after_create(corpus)
 
 

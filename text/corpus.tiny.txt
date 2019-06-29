@@ -1,0 +1,2 @@
+1.1 Ausgangssituation
+Die Auftragsabwicklung wurde in der DiFa Applikation mit Lotus Notes realisiert. Da sich die Lotus Notes Datenbank im Sundown befindet, beschloss DAIMLER AG im System VEEMOS die Prozesse Auftragserstellung und Auftragsverwaltung für den  Bereich der Elektronik / Elektrik zu integrieren.
