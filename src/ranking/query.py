@@ -3,6 +3,8 @@ __author__ = 'Nick Hirakawa, Verena Pongratz'
 from .invdx import build_data_structures
 from .rank import score_BM25, score_TFIDF
 from .lm import score_lm_kld
+from .bert import word_vecs_to_document_vec, score_cosine, string_to_bert_embeddings
+from .specparser import SpecParserBert
 from collections import defaultdict
 import operator
 
@@ -26,11 +28,13 @@ class QueryProcessor:
 	def run_query(self, query):
 		if self.score_function == "lm":
 			return self.run_query_lm(query)
+		elif self.score_function == "bert":
+			return self.run_query_bert(query)
 		query_result = dict()
 		for term in query:
 			if term in self.index:
-				doc_dict = self.index[term] # retrieve index entry
-				for docid, freq in doc_dict.items(): #for each document and its word frequency
+				doc_dict = self.index[term]  # retrieve index entry
+				for docid, freq in doc_dict.items():  # for each document and its word frequency
 					if self.score_function == "bm25":
 						score = score_BM25(n=len(doc_dict), f=freq, qf=1, r=0, N=len(self.dlt),
 					 					   dl=self.dlt.get_length(docid), avdl=self.dlt.get_average_length()) # calculate score
@@ -65,3 +69,18 @@ class QueryProcessor:
 
 		# Calculate score as lowest KL-Divergence between query and document
 		return query_result
+
+	def run_query_bert(self, query):
+		query_result = dict()
+
+		# Create vector for query
+		token_emb_pairs = string_to_bert_embeddings(query)
+		query_vec = word_vecs_to_document_vec(tuple(zip(*token_emb_pairs))[1])
+
+		# Go over all documents
+		for docid, doc_vec in self.corpus.items():
+			query_result[docid] = score_cosine(query_vec, doc_vec)
+
+		return query_result
+
+

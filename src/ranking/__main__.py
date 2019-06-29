@@ -22,15 +22,18 @@ args = parser.parse_args()
 
 def main():
     global args
-    qp = QueryParser(filename=args.queries)
     if args.model == "bert":
         cp = SpecParserBert(filename=args.docs)
+        qp = QueryParserRaw(filename=args.queries)
     else:
         cp = SpecParser(filename=args.docs)
+        qp = QueryParser(filename=args.queries)
+
     qp.parse()
     queries = qp.get_queries()
     cp.parse()
     corpus = cp.get_corpus()
+
     proc = QueryProcessor(queries, corpus, args.model)
     results = proc.run()
     qid = 0

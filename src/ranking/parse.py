@@ -3,8 +3,8 @@ __author__ = 'Nick Hirakawa, Verena Pongratz'
 import re
 
 import spacy
+from .bert import nlp
 
-nlp = spacy.load("de")
 
 class CorpusParser:
 
@@ -26,6 +26,21 @@ class CorpusParser:
 		return self.corpus
 
 
+class QueryParserRaw:
+
+	def __init__(self, filename):
+		self.filename = filename
+		self.queries = []
+
+	def parse(self):
+		with open(self.filename) as f:
+			for line in f.readlines():
+				self.queries.append(line)
+
+	def get_queries(self):
+		return self.queries
+
+
 class QueryParser:
 
 	def __init__(self, filename):
@@ -39,8 +54,3 @@ class QueryParser:
 
 	def get_queries(self):
 		return self.queries
-
-
-if __name__ == '__main__':
-	qp = QueryParser('text/queries.txt')
-	print(qp.get_queries())
