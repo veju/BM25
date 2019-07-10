@@ -50,7 +50,7 @@ class QueryParser:
 	def parse(self):
 		with open(self.filename) as f:
 			for line in f.readlines():
-				self.queries.append([token.lemma_ for token in nlp(line)])
+				self.queries.append([token.lemma_.lower() for token in nlp(line)])
 
 	def get_queries(self):
 		return self.queries

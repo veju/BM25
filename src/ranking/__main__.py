@@ -10,6 +10,7 @@ import argparse
 
 
 parser = argparse.ArgumentParser(description='Run diverse IR scoring functions on diverse doc/question sets.')
+parser.add_argument('--map', nargs=2, dest='map', help='Pass path to gold standard (TSV) and path to ranking (TSV) to calculate MAP@5 score.')
 parser.add_argument('--model', dest='model', default='bm25', help='IR model to use', choices=['bm25', 'lm', 'tfidf', 'bert'])
 parser.add_argument('--queries', dest='queries', help='Path to query file (One query per line)')
 parser.add_argument('--docs', dest='docs', default='bm25', help="""

@@ -37,7 +37,7 @@ class SpecParser:
 		return self.corpus
 
 	def tokenize(self, paragraph):
-		return [token.lemma_ for token in nlp(paragraph)]
+		return [token.lemma_.lower() for token in nlp(paragraph)]
 
 	def after_create(self, corpus):
 		with codecs.open(self.json_filename, 'w') as json_output:
