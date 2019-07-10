@@ -45,8 +45,6 @@ class QueryProcessor:
 						query_result[docid] += score
 					else:
 						query_result[docid] = score
-			else:
-				print("Term", term, "not present in index!")
 		return query_result
 
 	def run_query_lm(self, query):

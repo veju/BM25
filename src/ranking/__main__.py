@@ -4,6 +4,7 @@ __author__ = 'Nick Hirakawa, Verena Pongratz'
 from .parse import *
 from .query import QueryProcessor
 from .specparser import SpecParser, SpecParserBert
+from .map import score_map
 import operator
 import sys
 import argparse
@@ -23,6 +24,12 @@ args = parser.parse_args()
 
 def main():
     global args
+    if args.map:
+        map_score = score_map(5, args.map[0], args.map[1])
+        print(f"Calculated MAP@5 score for {args.map[0]}, {args.map[1]}")
+        print(f" = {map_score}")
+        return
+
     if args.model == "bert":
         cp = SpecParserBert(filename=args.docs)
         qp = QueryParserRaw(filename=args.queries)
