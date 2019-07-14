@@ -7,6 +7,7 @@ import json
 from os.path import splitext, exists
 from .bert import word_vecs_to_document_vec, nlp, string_to_bert_embeddings
 from numpy import asarray
+from collections import defaultdict
 
 
 class SpecParser:
@@ -52,15 +53,18 @@ class SpecParser:
 				line = line.rstrip() # get rid of newline
 				if self.regex.match(line) is not None:
 					if current_chapter_tokens and current_chapter:
-						self.corpus[current_chapter] = current_chapter_tokens
+						self.doc_parsed(current_chapter, current_chapter_tokens)
 					current_chapter = line.strip()
 					current_chapter_tokens = []
 				else:
 					tokens = self.tokenize(line)
 					current_chapter_tokens += tokens
 			if current_chapter_tokens:
-				self.corpus[current_chapter] = current_chapter_tokens
+				self.doc_parsed(current_chapter, current_chapter_tokens)
 			self.after_create(self.corpus)
+
+	def doc_parsed(self, docid, doc_tokens):
+		self.corpus[current_chapter] = current_chapter_tokens
 
 
 class SpecParserBert(SpecParser):
@@ -72,6 +76,7 @@ class SpecParserBert(SpecParser):
 		self.regex = re.compile(r"^[ \t]*([0-9]\.)*[0-9]+[ \t]+[A-Za-z][^\t\n]*$")
 		self.corpus = dict()
 		self.doc_vec_corpus = dict()
+		self.dtf = defaultdict(int) # Track document-term frequency for tfidf wv weights
 
 	def parse(self):
 		if exists(self.bert_json_filename):
@@ -92,12 +97,27 @@ class SpecParserBert(SpecParser):
 	def tokenize(self, paragraph):
 		return string_to_bert_embeddings(paragraph)
 
+	def doc_parsed(self, docid, doc_tokens):
+		super().doc_parsed(docid, doc_tokens)
+		# make sure to only add documents
+		#  to document-term-frequency dictionary once.
+		seen_words = set()
+		for (word, _) in doc_tokens:
+			if word not in seen_words:
+				self.dtf[word] += 1
+				seen_words.add(word)
+
 	def after_create(self, corpus):
 		print("Generating average BERT embeddings ...")
 		for docid, word_and_embedding_list in corpus.items():
 			words_and_embeddings = tuple(zip(*word_and_embedding_list))
 			corpus[docid] = words_and_embeddings[0]
-			self.doc_vec_corpus[docid] = word_vecs_to_document_vec(words_and_embeddings[1])
+			self.doc_vec_corpus[docid] = word_vecs_to_document_vec(
+				words_and_embeddings[1],
+				[
+					log(float(len(self.corpus))/float(self.dtf[word]))
+					for word in words_and_embeddings[0]
+				])
 		with codecs.open(self.bert_json_filename, 'w') as json_output:
 			print("Writing to", self.bert_json_filename)
 			json.dump({  # convert numpy arrays to lists

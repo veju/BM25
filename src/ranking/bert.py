@@ -26,11 +26,13 @@ def score_cosine(qv: np.array, dv: np.array) -> float:
     return cos_sim
 
 
-def word_vecs_to_document_vec(vecs: List[np.array], weights: np.array=None) -> np.array:
-    assert(len(vecs) > 0)
+def word_vecs_to_document_vec(vecs: List[np.array], weights: List[float]) -> np.array:
+    assert(len(vecs) > 0 and (not weights or len(weights) == len(vecs)))
     result = np.zeros(vecs[0].shape)
-    for vec in vecs:
+    for i, vec in enumerate(vecs):
         # TODO: Consider weight
+        if weights:
+            vec *= weights[i]
         result += vec
     result /= float(len(vecs))
     # TODO: Normalize?
