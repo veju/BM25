@@ -8,7 +8,12 @@ from os.path import splitext, exists
 from .bert import word_vecs_to_document_vec, nlp, string_to_bert_embeddings
 from numpy import asarray
 from collections import defaultdict
+from math import log
 
+
+def tokenize_ngrams():
+	pass
+	
 
 class SpecParser:
 
@@ -64,7 +69,7 @@ class SpecParser:
 			self.after_create(self.corpus)
 
 	def doc_parsed(self, docid, doc_tokens):
-		self.corpus[current_chapter] = current_chapter_tokens
+		self.corpus[docid] = doc_tokens
 
 
 class SpecParserBert(SpecParser):
@@ -82,16 +87,14 @@ class SpecParserBert(SpecParser):
 		if exists(self.bert_json_filename):
 			print("Found", self.bert_json_filename, "!")
 			with codecs.open(self.bert_json_filename) as file:
-				self.doc_vec_corpus = {
-					docid: asarray(docvec)
-					for docid, docvec in dict(json.load(file)).items()
-				}
+				docvecs, self.dtf = tuple(json.load(file))
+				self.doc_vec_corpus = {docid: asarray(docvec) for docid, docvec in docvecs.items()}
 		else:
 			print("Could not find", self.bert_json_filename, "creating...")
 		super().parse()
 
 	def get_corpus(self):
-		return self.doc_vec_corpus
+		return self.doc_vec_corpus, self.dtf
 
 	# Generate (token, embedding)-pair list from paragraph
 	def tokenize(self, paragraph):
@@ -120,8 +123,8 @@ class SpecParserBert(SpecParser):
 				])
 		with codecs.open(self.bert_json_filename, 'w') as json_output:
 			print("Writing to", self.bert_json_filename)
-			json.dump({  # convert numpy arrays to lists
+			json.dump(({  # convert numpy arrays to lists
 				docid: list(docvec) for docid, docvec in self.doc_vec_corpus.items()
-			}, json_output, indent=2)
+			}, self.dtf), json_output, indent=2)
 		super().after_create(corpus)
 

@@ -6,14 +6,18 @@ from .lm import score_lm_kld
 from .bert import word_vecs_to_document_vec, score_cosine, string_to_bert_embeddings
 from .specparser import SpecParserBert
 from collections import defaultdict
+from math import log
 import operator
 
 
 class QueryProcessor:
 	def __init__(self, queries, corpus, score_function="bm25"):
 		self.queries = queries
-		self.corpus = corpus
-		self.index, self.dlt, self.dtf, self.tdf = build_data_structures(corpus)
+		if score_function == "bert":
+			self.corpus, self.dtf = corpus
+		else:
+			self.corpus = corpus
+			self.index, self.dlt, self.dtf, self.tdf = build_data_structures(corpus)
 		if score_function not in ("bm25", "tfidf", "lm", "bert"):
 			print(f"ERROR: Unknown score function {score_function}! Using BM25.")
 			score_function = "bm25"
@@ -73,7 +77,12 @@ class QueryProcessor:
 
 		# Create vector for query
 		token_emb_pairs = string_to_bert_embeddings(query)
-		query_vec = word_vecs_to_document_vec(tuple(zip(*token_emb_pairs))[1])
+		query_vec = word_vecs_to_document_vec(
+			tuple(zip(*token_emb_pairs))[1],
+			[
+				log(float(len(self.corpus))/float(self.dtf[token_emb[0]])) if token_emb[0] in self.dtf else 1.
+				for token_emb in token_emb_pairs
+			])
 
 		# Go over all documents
 		for docid, doc_vec in self.corpus.items():
