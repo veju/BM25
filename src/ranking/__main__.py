@@ -27,7 +27,9 @@ def main():
     if args.map:
         map_score = score_map(5, args.map[0], args.map[1])
         print(f"Calculated MAP@5 score for {args.map[0]}, {args.map[1]}")
-        print(f" = {map_score}")
+        for n, prec_at_n in enumerate(map_score[0]):
+            print(f"Prec@{n+1}: {prec_at_n}")
+        print(f"MAP@5 = {map_score[1]}")
         return
 
     if args.model == "bert":

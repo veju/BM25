@@ -28,7 +28,10 @@ Params:
 def score_map(n, gold_file_path, ranking_file_path):
     gold_data = parse_tsv(gold_file_path)
     ranking_data = parse_tsv(ranking_file_path)
-    map_score = 0
+    map_score = [.0] * n
+
+    # Calculate avg. precision for top 1-n documents
+    prec_per_top_n = [.0] * n
 
     for query_id, gold_ranking in gold_data.items():
         # Find top 5 gold documents in gold ranking
@@ -42,11 +45,9 @@ def score_map(n, gold_file_path, ranking_file_path):
                     gold_doc_per_place[gold_place] = document_data[2]
         if len(gold_doc_per_place) < n:
             print(f"Found only {len(gold_doc_per_place)} relevance judgements for query {query_id}")
-        # Calculate avg. precision for top 1-n documents
-        avg_prec = .0
+
         # Go over multiple top-n
         for top_n in range(n):
-            prec = 0
             # Go over all gold documents for top-n
             for place in range(top_n+1):
                 if place+1 not in gold_doc_per_place:
@@ -56,12 +57,10 @@ def score_map(n, gold_file_path, ranking_file_path):
                 # Check whether gold document is present in top-n ranked docs
                 for ranked_doc_data in ranking_data[query_id][:top_n+1]:
                     if ranked_doc_data[2] == gold_doc_id:
-                        prec += 1./(top_n+1.)
+                        prec_per_top_n[top_n] += 1./(top_n+1.)
                         break
-            avg_prec += prec
-        avg_prec /= float(n)
-        map_score += avg_prec
+    prec_per_top_n = [prec/len(gold_data) for prec in prec_per_top_n]
+    map_score = sum(prec_per_top_n)/n
 
     # avg. precision over all queries
-    map_score /= len(gold_data)
-    return map_score
+    return [prec_per_top_n, map_score]
