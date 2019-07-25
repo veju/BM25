@@ -1,0 +1,56 @@
+BM25
+Parsing ranking/ranking.csv ...
+  ... found 20 queries.
+Parsing results/bm25.csv ...
+  ... found 102 queries.
+Found only 4 relevance judgements for query 23
+No gold doc for place 5 in query 23!
+Calculated MAP@5 score for ranking/ranking.csv, results/bm25.csv
+Prec@1: 0.0
+Prec@2: 0.025
+Prec@3: 0.09999999999999999
+Prec@4: 0.2125
+Prec@5: 0.22000000000000006
+MAP@5 = 0.11150000000000002
+LM
+Parsing ranking/ranking.csv ...
+  ... found 20 queries.
+Parsing results/lm.csv ...
+  ... found 102 queries.
+Found only 4 relevance judgements for query 23
+No gold doc for place 5 in query 23!
+Calculated MAP@5 score for ranking/ranking.csv, results/lm.csv
+Prec@1: 0.2
+Prec@2: 0.2
+Prec@3: 0.29999999999999993
+Prec@4: 0.25
+Prec@5: 0.2600000000000001
+MAP@5 = 0.242
+TFIDF
+Parsing ranking/ranking.csv ...
+  ... found 20 queries.
+Parsing results/tfidf.csv ...
+  ... found 102 queries.
+Found only 4 relevance judgements for query 23
+No gold doc for place 5 in query 23!
+Calculated MAP@5 score for ranking/ranking.csv, results/tfidf.csv
+Prec@1: 0.2
+Prec@2: 0.35
+Prec@3: 0.4499999999999999
+Prec@4: 0.3875
+Prec@5: 0.3600000000000002
+MAP@5 = 0.34950000000000003
+BERT
+Parsing ranking/ranking.csv ...
+  ... found 20 queries.
+Parsing results/bert.csv ...
+  ... found 102 queries.
+Found only 4 relevance judgements for query 23
+No gold doc for place 5 in query 23!
+Calculated MAP@5 score for ranking/ranking.csv, results/bert.csv
+Prec@1: 0.15
+Prec@2: 0.225
+Prec@3: 0.2666666666666666
+Prec@4: 0.225
+Prec@5: 0.27000000000000013
+MAP@5 = 0.22733333333333333

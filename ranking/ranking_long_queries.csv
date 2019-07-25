@@ -1,0 +1,1820 @@
+6    0    2.2.7  Dialog: (Reinen) E/E Auftrag[LE54] anlegen/bearbeiten           0.514    lm    
+6    1    2.2.23  Dialog: Montageberichtskatalog[LE121]           0.289    lm    
+6    2    2.2.7.1 Bereich Anhänge           0.265    lm    
+6    3    2.2.7.2 Dialog: Montagebericht bearbeiten & anzeigen           0.264    lm    1
+6    4    2.2.25  Dialog: Massenbearbeitung[LE135] von Aufträgen           0.241    lm    
+6    5    2.3.1  Prozess für einen E/E Auftrag auf Basis PiT           0.228    lm    
+6    6    2.2.5.5 E/E Auftragsverwaltung Mastertabelle           0.225    lm    3
+6    7    2.3.2  Prozess für einen Reinen E/E Auftrag auf Basis VEEMOS           0.208    lm    
+6    8    2.2.24 Dialog: Massenanlage[LE124] (reine) E/E Aufträge           0.207    lm    
+6    9    6 Glossar           0.194    lm    
+6    10    2.2.5.3.1 Menüleiste           0.171    lm    
+6    11    2.2.5.6  E/E Auftragsverwaltung Detailbereich[LE51]           0.130    lm    2
+6    12    2.2.18 Dialog: Auswertung Lebenslauf[LE115]           0.123    lm    
+6    13    2.2.27  Dialog: Benutzer pflegen           0.114    lm    
+6    14    5.4.2 Auslöser „Zuständigkeitswechsel[LE185]“           0.110    lm    
+6    15    2.2.19  Dialog: FiNAS-Fahrzeugdatensätze anzeigen           0.108    lm    
+6    16    5.2 Berechtigungskonzept           0.106    lm    
+6    17    2.2.5.2.2 Kontextmenü Masterbereich           0.105    lm    
+6    18    2.2.14 Dialog: Kurztest laden           0.099    lm    
+6    19    2.2.5.1.1 Navigationsbaum           0.099    lm    
+6    20    3.1.2 FO: AuthorizationProfile           0.099    lm    
+6    21    2.2.5.3.2 Toolbar           0.094    lm    
+6    22    2.2.22  Dialog: Messumfängekatalog[LE120]           0.094    lm    
+6    23    2.2.16 Dialog: Ausstattung laden           0.093    lm    
+6    24    2.2.13  Dialog: (Neue) Meisterei anlegen/bearbeiten           0.092    lm    
+6    25    2.2.21  Dialog: Kontierungsverwaltung[LE119]           0.091    lm    
+6    26    2.2.11  Dialog: Reinen[LE97] E/E Auftrag zuordnen           0.091    lm    
+6    27    2.2.5.4 Zugriffsberechtigung           0.087    lm    
+6    28    5.3.2 Explizites Sperren           0.086    lm    
+6    29    2.2.10 Dialog: Auftrag anzeigen[LE95]           0.080    lm    4
+6    30    2.2.12  Dialog: Zuordnung[LE98] HW/SW Umbaumeisterei           0.079    lm    
+6    31    2.2.17 Dialog: Ausstattung anzeigen           0.078    lm    
+6    32    2.3  Auftragstatus           0.078    lm    
+6    33    2.2.5.2.1 Kontextmenü Navigationsbaum[LE26]           0.074    lm    
+6    34    2.2.8  Dialog: Auftragsinhalte[LE93] übernehmen           0.071    lm    
+6    35    2.3.5  Prozess bei diversen Zielzuständen           0.071    lm    
+6    36    2.3.3  Prozess für Stornierung           0.070    lm    
+6    37    5.5 Archivierungskonzept[LE187]           0.070    lm    
+6    38    2.2.9 Dialog: Fahrzeughistorie[LE94]           0.068    lm    
+6    39    2.2.15  Dialog: Kurztest anzeigen           0.062    lm    
+6    40    5.4.1 Auslöser[LE184] „Statuswechsel“ und „PIT Auftragseingang“       0.059    lm        
+6    41    2.2.1.1 Detailbereich allgemein           0.055    lm    
+6    42    2.2.5.1.2 Tabellenspalten           0.055    lm    
+6    43    2.2.29  Dialog: Info[LE155]           0.055    lm    
+6    44    2.2.3 Zugriff           0.055    lm    
+6    45    2.2.7.2.1 Dialog: Montageberichtkatalog           0.052    lm    
+6    46    2.1.1  Benutzerrechte           0.052    lm    
+6    47    1.2 Prozessbeschreibung           0.048    lm    
+6    48    3.1.1 FO: User           0.045    lm    
+6    49    2.3.4  Prozess für Ablehung           0.044    lm    
+6    50    3.1.3 FO: Configuration           0.039    lm    
+6    51    2.2.6 Offener Auftrag – Hinweismeldung           0.039    lm    
+6    52    2.1.18 Datumsformat           0.038    lm    
+6    53    5.1 Kommunikation und  Positionsabgleich zwischen PiT und der Auftragsverwaltung[LE179] zu Montageberichten[LE180]           0.036    lm    
+6    54    5.1.3 Paralleles Anlegen von Positionen           0.036    lm    
+6    55    2.1.3 Sortieren von Tabellen           0.033    lm    
+6    56    5.1.1 Richtung: PiT zu VEEMOS           0.033    lm    
+6    57    2.1.12  Enablement und Sichtbarkeit           0.032    lm    
+6    58    2.1.8 Export von Tabelleninhalten           0.032    lm    
+6    59    2.1.5  Ein und Ausblenden von Tabellenspalten           0.032    lm    
+6    60    2.2.5.3 Kopfbereich           0.032    lm    
+6    61    2.1.4  Spaltenbreiten und -positionen in Tabellen           0.032    lm    
+6    62    2.1.9 Herunterladen von[LE10] Anhängen           0.032    lm    
+6    63    2.1.6 Benannte Sichten von Tabellen           0.031    lm    
+6    64    5.3 Sperrkonzept           0.031    lm    
+6    65    2.1.2 Filtern von Tabellen           0.031    lm    
+6    66    2.1.7  Kopieren von Tabelleninhalten           0.030    lm    
+6    67    2.1.15 Spracheinstellung           0.030    lm    
+6    68    5.1.2 Richtung: VEEMOS zu PiT           0.030    lm    
+6    69    2.1.13 Tab-Reihenfolge           0.030    lm    
+6    70    2.1.20 E/E Auftrag-Nummernformat           0.030    lm    
+6    71    2.1.19 FiNAS-Nummernformat           0.030    lm    
+6    72    2.1.16 Auflösung und Fenstergröße           0.029    lm    
+6    73    5.3.1  Optimistisches Sperren           0.029    lm    
+6    74    2.2.4 Synchronisierung           0.029    lm    5
+6    75    2.1.14 Internationalisierung           0.029    lm    
+6    76    2.2.28  Dialog: Baureihen zuordnen           0.029    lm    
+6    77    2.2.26  Dialog: Benutzer verwalten           0.029    lm    
+6    78    2.1.17 Benutzereinstellungen           0.029    lm    
+6    79    2.2 Oberflächen           0.029    lm    
+6    80    4 Externe Schnittstellen           0.029    lm    
+6    81    2.2.1 Master- und Detailbereich           0.029    lm    
+6    82    2.2.2 Allgemeine Dialoge           0.029    lm    
+6    83    5 Technische Aspekte[LE178]           0.029    lm    
+6    84    2.2.5 E/E Auftragsverwaltung           0.029    lm    
+6    85    2.2.5.1 Filter           0.028    lm    
+6    86    2.1.10 Filtern von Auswahllisten           0.028    lm    
+6    87    2 Navigation und Dialogabläufe           0.028    lm    
+6    88    2.1.11 Hilfe[LE11]           0.028    lm    
+6    89    1.1 Ausgangssituation           0.028    lm    
+6    90    2.1 Generelle Anforderungen           0.028    lm    
+7    0    2.2.7  Dialog: (Reinen) E/E Auftrag[LE54] anlegen/bearbeiten           0.530    lm    
+7    1    2.2.23  Dialog: Montageberichtskatalog[LE121]           0.299    lm    
+7    2    2.2.7.2 Dialog: Montagebericht bearbeiten & anzeigen           0.281    lm    
+7    3    2.2.7.1 Bereich Anhänge           0.278    lm    
+7    4    2.2.25  Dialog: Massenbearbeitung[LE135] von Aufträgen           0.253    lm    
+7    5    2.3.1  Prozess für einen E/E Auftrag auf Basis PiT           0.245    lm    
+7    6    2.2.5.5 E/E Auftragsverwaltung Mastertabelle           0.241    lm    
+7    7    2.3.2  Prozess für einen Reinen E/E Auftrag auf Basis VEEMOS           0.224    lm    
+7    8    2.2.24 Dialog: Massenanlage[LE124] (reine) E/E Aufträge           0.218    lm    
+7    9    6 Glossar           0.197    lm    
+7    10    2.2.5.3.1 Menüleiste           0.184    lm    
+7    11    2.2.5.6  E/E Auftragsverwaltung Detailbereich[LE51]           0.138    lm    
+7    12    2.2.18 Dialog: Auswertung Lebenslauf[LE115]           0.128    lm    
+7    13    5.4.2 Auslöser „Zuständigkeitswechsel[LE185]“           0.118    lm    
+7    14    2.2.27  Dialog: Benutzer pflegen           0.117    lm    
+7    15    2.2.5.2.2 Kontextmenü Masterbereich           0.117    lm    
+7    16    2.2.19  Dialog: FiNAS-Fahrzeugdatensätze anzeigen           0.114    lm    
+7    17    5.2 Berechtigungskonzept           0.110    lm    
+7    18    2.2.5.1.1 Navigationsbaum           0.107    lm    
+7    19    2.2.22  Dialog: Messumfängekatalog[LE120]           0.104    lm    
+7    20    3.1.2 FO: AuthorizationProfile           0.104    lm    
+7    21    2.2.13  Dialog: (Neue) Meisterei anlegen/bearbeiten           0.101    lm    
+7    22    2.2.5.3.2 Toolbar           0.101    lm    
+7    23    2.2.14 Dialog: Kurztest laden           0.101    lm    4
+7    24    2.2.21  Dialog: Kontierungsverwaltung[LE119]           0.100    lm    
+7    25    2.2.11  Dialog: Reinen[LE97] E/E Auftrag zuordnen           0.099    lm    
+7    26    2.2.16 Dialog: Ausstattung laden           0.095    lm    
+7    27    2.2.5.4 Zugriffsberechtigung           0.091    lm    
+7    28    2.2.10 Dialog: Auftrag anzeigen[LE95]           0.090    lm    
+7    29    2.3  Auftragstatus           0.087    lm    
+7    30    2.2.12  Dialog: Zuordnung[LE98] HW/SW Umbaumeisterei           0.086    lm    
+7    31    5.3.2 Explizites Sperren           0.085    lm    1
+7    32    2.2.17 Dialog: Ausstattung anzeigen           0.085    lm    
+7    33    2.2.5.2.1 Kontextmenü Navigationsbaum[LE26]           0.082    lm    
+7    34    2.3.5  Prozess bei diversen Zielzuständen           0.082    lm    
+7    35    2.3.3  Prozess für Stornierung           0.080    lm    
+7    36    2.2.8  Dialog: Auftragsinhalte[LE93] übernehmen           0.078    lm    
+7    37    2.2.9 Dialog: Fahrzeughistorie[LE94]           0.076    lm    
+7    38    5.5 Archivierungskonzept[LE187]           0.073    lm    
+7    39    2.2.15  Dialog: Kurztest anzeigen           0.068    lm    5
+7    40    5.4.1 Auslöser[LE184] „Statuswechsel“ und „PIT Auftragseingang“       0.063    lm        
+7    41    2.2.5.1.2 Tabellenspalten           0.061    lm    
+7    42    2.2.29  Dialog: Info[LE155]           0.059    lm    
+7    43    2.2.1.1 Detailbereich allgemein           0.058    lm    
+7    44    2.2.3 Zugriff           0.058    lm    
+7    45    2.2.7.2.1 Dialog: Montageberichtkatalog           0.055    lm    
+7    46    2.1.1  Benutzerrechte           0.053    lm    
+7    47    2.3.4  Prozess für Ablehung           0.052    lm    
+7    48    1.2 Prozessbeschreibung           0.051    lm    
+7    49    3.1.1 FO: User           0.047    lm    
+7    50    2.2.6 Offener Auftrag – Hinweismeldung           0.046    lm    
+7    51    3.1.3 FO: Configuration           0.044    lm    
+7    52    2.1.18 Datumsformat           0.038    lm    
+7    53    5.1 Kommunikation und  Positionsabgleich zwischen PiT und der Auftragsverwaltung[LE179] zu Montageberichten[LE180]           0.036    lm    
+7    54    5.1.3 Paralleles Anlegen von Positionen           0.035    lm    
+7    55    5.1.1 Richtung: PiT zu VEEMOS           0.033    lm    
+7    56    2.1.9 Herunterladen von[LE10] Anhängen           0.032    lm    
+7    57    2.1.3 Sortieren von Tabellen           0.032    lm    
+7    58    2.1.12  Enablement und Sichtbarkeit           0.031    lm    
+7    59    2.2.5 E/E Auftragsverwaltung           0.031    lm    
+7    60    2.1.4  Spaltenbreiten und -positionen in Tabellen           0.031    lm    
+7    61    5.3 Sperrkonzept           0.031    lm    3
+7    62    2.2.5.3 Kopfbereich           0.031    lm    
+7    63    2.1.15 Spracheinstellung           0.030    lm    
+7    64    2.1.11 Hilfe[LE11]           0.030    lm    
+7    65    2.1.13 Tab-Reihenfolge           0.030    lm    
+7    66    2.1.5  Ein und Ausblenden von Tabellenspalten           0.029    lm    
+7    67    2.1.8 Export von Tabelleninhalten           0.029    lm    
+7    68    2.2.4 Synchronisierung           0.029    lm    
+7    69    5.1.2 Richtung: VEEMOS zu PiT           0.029    lm    
+7    70    2.1.7  Kopieren von Tabelleninhalten           0.029    lm    
+7    71    2.1.6 Benannte Sichten von Tabellen           0.029    lm    
+7    72    2.1.2 Filtern von Tabellen           0.029    lm    
+7    73    1.1 Ausgangssituation           0.028    lm    
+7    74    2.1 Generelle Anforderungen           0.028    lm    
+7    75    2.1.20 E/E Auftrag-Nummernformat           0.028    lm    
+7    76    2.1.14 Internationalisierung           0.028    lm    
+7    77    4 Externe Schnittstellen           0.027    lm    
+7    78    2 Navigation und Dialogabläufe           0.027    lm    
+7    79    2.1.10 Filtern von Auswahllisten           0.027    lm    
+7    80    2.1.19 FiNAS-Nummernformat           0.027    lm    
+7    81    2.2.2 Allgemeine Dialoge           0.027    lm    
+7    82    5.3.1  Optimistisches Sperren           0.027    lm    2
+7    83    5 Technische Aspekte[LE178]           0.027    lm    
+7    84    2.2.28  Dialog: Baureihen zuordnen           0.027    lm    
+7    85    2.2.26  Dialog: Benutzer verwalten           0.027    lm    
+7    86    2.2 Oberflächen           0.027    lm    
+7    87    2.1.17 Benutzereinstellungen           0.027    lm    
+7    88    2.2.5.1 Filter           0.027    lm    
+7    89    2.1.16 Auflösung und Fenstergröße           0.026    lm    
+7    90    2.2.1 Master- und Detailbereich           0.026    lm    
+8    0    2.2.7  Dialog: (Reinen) E/E Auftrag[LE54] anlegen/bearbeiten           0.513    lm    
+8    1    2.2.23  Dialog: Montageberichtskatalog[LE121]           0.305    lm    
+8    2    2.2.7.1 Bereich Anhänge           0.287    lm    
+8    3    2.2.7.2 Dialog: Montagebericht bearbeiten & anzeigen           0.284    lm    
+8    4    2.2.25  Dialog: Massenbearbeitung[LE135] von Aufträgen           0.260    lm    
+8    5    2.3.1  Prozess für einen E/E Auftrag auf Basis PiT           0.245    lm    3
+8    6    2.2.5.5 E/E Auftragsverwaltung Mastertabelle           0.243    lm    
+8    7    2.3.2  Prozess für einen Reinen E/E Auftrag auf Basis VEEMOS           0.226    lm    5
+8    8    2.2.24 Dialog: Massenanlage[LE124] (reine) E/E Aufträge           0.222    lm    
+8    9    6 Glossar           0.216    lm    
+8    10    2.2.5.3.1 Menüleiste           0.187    lm    
+8    11    2.2.5.6  E/E Auftragsverwaltung Detailbereich[LE51]           0.155    lm    
+8    12    2.2.18 Dialog: Auswertung Lebenslauf[LE115]           0.152    lm    
+8    13    2.2.19  Dialog: FiNAS-Fahrzeugdatensätze anzeigen           0.145    lm    
+8    14    2.2.27  Dialog: Benutzer pflegen           0.140    lm    
+8    15    5.2 Berechtigungskonzept           0.129    lm    
+8    16    5.4.2 Auslöser „Zuständigkeitswechsel[LE185]“           0.129    lm    
+8    17    3.1.2 FO: AuthorizationProfile           0.128    lm    
+8    18    2.2.5.2.2 Kontextmenü Masterbereich           0.127    lm    
+8    19    2.2.14 Dialog: Kurztest laden           0.124    lm    
+8    20    2.2.5.1.1 Navigationsbaum           0.122    lm    
+8    21    2.2.5.4 Zugriffsberechtigung           0.121    lm    
+8    22    2.2.22  Dialog: Messumfängekatalog[LE120]           0.120    lm    
+8    23    2.2.16 Dialog: Ausstattung laden           0.119    lm    
+8    24    2.2.5.3.2 Toolbar           0.119    lm    
+8    25    2.2.13  Dialog: (Neue) Meisterei anlegen/bearbeiten           0.119    lm    
+8    26    2.2.21  Dialog: Kontierungsverwaltung[LE119]           0.114    lm    
+8    27    2.2.11  Dialog: Reinen[LE97] E/E Auftrag zuordnen           0.113    lm    
+8    28    2.2.17 Dialog: Ausstattung anzeigen           0.110    lm    
+8    29    2.2.12  Dialog: Zuordnung[LE98] HW/SW Umbaumeisterei           0.106    lm    
+8    30    2.2.10 Dialog: Auftrag anzeigen[LE95]           0.105    lm    
+8    31    2.3  Auftragstatus           0.105    lm    
+8    32    2.2.8  Dialog: Auftragsinhalte[LE93] übernehmen           0.101    lm    
+8    33    2.2.5.2.1 Kontextmenü Navigationsbaum[LE26]           0.100    lm    
+8    34    5.3.2 Explizites Sperren           0.100    lm    1
+8    35    2.3.5  Prozess bei diversen Zielzuständen           0.099    lm    
+8    36    2.2.9 Dialog: Fahrzeughistorie[LE94]           0.098    lm    
+8    37    5.5 Archivierungskonzept[LE187]           0.097    lm    
+8    38    2.2.15  Dialog: Kurztest anzeigen           0.097    lm    
+8    39    2.3.3  Prozess für Stornierung           0.095    lm    
+8    40    2.2.29  Dialog: Info[LE155]           0.089    lm    
+8    41    2.2.1.1 Detailbereich allgemein           0.088    lm    
+8    42    2.2.5.1.2 Tabellenspalten           0.088    lm    
+8    43    2.1.1  Benutzerrechte           0.085    lm    
+8    44    2.2.3 Zugriff           0.083    lm    
+8    45    5.4.1 Auslöser[LE184] „Statuswechsel“ und „PIT Auftragseingang“       0.082    lm        
+8    46    3.1.1 FO: User           0.081    lm    
+8    47    2.2.7.2.1 Dialog: Montageberichtkatalog           0.081    lm    
+8    48    1.2 Prozessbeschreibung           0.075    lm    
+8    49    2.3.4  Prozess für Ablehung           0.073    lm    
+8    50    3.1.3 FO: Configuration           0.072    lm    
+8    51    5.1 Kommunikation und  Positionsabgleich zwischen PiT und der Auftragsverwaltung[LE179] zu Montageberichten[LE180]           0.069    lm    
+8    52    5.1.3 Paralleles Anlegen von Positionen           0.069    lm    
+8    53    5.1.1 Richtung: PiT zu VEEMOS           0.068    lm    
+8    54    2.2.5.3 Kopfbereich           0.067    lm    
+8    55    2.1.18 Datumsformat           0.067    lm    
+8    56    2.1.4  Spaltenbreiten und -positionen in Tabellen           0.066    lm    
+8    57    2.1.8 Export von Tabelleninhalten           0.065    lm    
+8    58    2.1.3 Sortieren von Tabellen           0.065    lm    
+8    59    2.1 Generelle Anforderungen           0.065    lm    
+8    60    5.3 Sperrkonzept           0.065    lm    2
+8    61    5.1.2 Richtung: VEEMOS zu PiT           0.065    lm    
+8    62    2.2.5 E/E Auftragsverwaltung           0.065    lm    
+8    63    4 Externe Schnittstellen           0.065    lm    
+8    64    2.1.7  Kopieren von Tabelleninhalten           0.064    lm    
+8    65    2.1.6 Benannte Sichten von Tabellen           0.064    lm    
+8    66    2.1.12  Enablement und Sichtbarkeit           0.064    lm    
+8    67    2.1.5  Ein und Ausblenden von Tabellenspalten           0.064    lm    
+8    68    2.1.2 Filtern von Tabellen           0.064    lm    
+8    69    2.2.5.1 Filter           0.064    lm    
+8    70    5 Technische Aspekte[LE178]           0.064    lm    
+8    71    2.1.14 Internationalisierung           0.064    lm    
+8    72    5.3.1  Optimistisches Sperren           0.063    lm    4
+8    73    2.1.20 E/E Auftrag-Nummernformat           0.063    lm    
+8    74    2.2.26  Dialog: Benutzer verwalten           0.063    lm    
+8    75    2.2 Oberflächen           0.063    lm    
+8    76    2.1.17 Benutzereinstellungen           0.063    lm    
+8    77    2.2.6 Offener Auftrag – Hinweismeldung           0.063    lm    
+8    78    2.1.11 Hilfe[LE11]           0.063    lm    
+8    79    2.1.15 Spracheinstellung           0.063    lm    
+8    80    2.2.2 Allgemeine Dialoge           0.063    lm    
+8    81    2 Navigation und Dialogabläufe           0.063    lm    
+8    82    2.1.19 FiNAS-Nummernformat           0.063    lm    
+8    83    2.1.16 Auflösung und Fenstergröße           0.063    lm    
+8    84    1.1 Ausgangssituation           0.063    lm    
+8    85    2.2.1 Master- und Detailbereich           0.062    lm    
+8    86    2.2.28  Dialog: Baureihen zuordnen           0.062    lm    
+8    87    2.1.10 Filtern von Auswahllisten           0.062    lm    
+8    88    2.1.9 Herunterladen von[LE10] Anhängen           0.060    lm    
+8    89    2.2.4 Synchronisierung           0.060    lm    
+8    90    2.1.13 Tab-Reihenfolge           0.060    lm    
+9    0    2.2.7  Dialog: (Reinen) E/E Auftrag[LE54] anlegen/bearbeiten           0.495    lm    3
+9    1    2.2.23  Dialog: Montageberichtskatalog[LE121]           0.266    lm    
+9    2    2.2.7.1 Bereich Anhänge           0.260    lm    
+9    3    2.2.7.2 Dialog: Montagebericht bearbeiten & anzeigen           0.256    lm    
+9    4    2.2.25  Dialog: Massenbearbeitung[LE135] von Aufträgen           0.232    lm    
+9    5    2.3.1  Prozess für einen E/E Auftrag auf Basis PiT           0.221    lm    
+9    6    2.2.5.5 E/E Auftragsverwaltung Mastertabelle           0.204    lm    2
+9    7    2.3.2  Prozess für einen Reinen E/E Auftrag auf Basis VEEMOS           0.203    lm    
+9    8    2.2.24 Dialog: Massenanlage[LE124] (reine) E/E Aufträge           0.190    lm    4
+9    9    6 Glossar           0.183    lm    
+9    10    2.2.5.3.1 Menüleiste           0.159    lm    
+9    11    2.2.5.6  E/E Auftragsverwaltung Detailbereich[LE51]           0.119    lm    
+9    12    2.2.18 Dialog: Auswertung Lebenslauf[LE115]           0.110    lm    
+9    13    2.2.19  Dialog: FiNAS-Fahrzeugdatensätze anzeigen           0.107    lm    
+9    14    2.2.27  Dialog: Benutzer pflegen           0.104    lm    
+9    15    5.4.2 Auslöser „Zuständigkeitswechsel[LE185]“           0.099    lm    
+9    16    2.2.5.4 Zugriffsberechtigung           0.097    lm    
+9    17    5.2 Berechtigungskonzept           0.097    lm    
+9    18    2.2.5.2.2 Kontextmenü Masterbereich           0.097    lm    
+9    19    2.2.5.3.2 Toolbar           0.095    lm    
+9    20    3.1.2 FO: AuthorizationProfile           0.091    lm    
+9    21    2.2.14 Dialog: Kurztest laden           0.089    lm    
+9    22    2.2.5.1.1 Navigationsbaum           0.085    lm    
+9    23    2.2.16 Dialog: Ausstattung laden           0.085    lm    
+9    24    2.2.22  Dialog: Messumfängekatalog[LE120]           0.084    lm    
+9    25    2.2.13  Dialog: (Neue) Meisterei anlegen/bearbeiten           0.083    lm    
+9    26    2.2.11  Dialog: Reinen[LE97] E/E Auftrag zuordnen           0.081    lm    
+9    27    2.2.21  Dialog: Kontierungsverwaltung[LE119]           0.080    lm    
+9    28    2.2.10 Dialog: Auftrag anzeigen[LE95]           0.075    lm    
+9    29    2.3.5  Prozess bei diversen Zielzuständen           0.072    lm    
+9    30    2.2.17 Dialog: Ausstattung anzeigen           0.072    lm    
+9    31    5.3.2 Explizites Sperren           0.071    lm    
+9    32    2.3  Auftragstatus           0.068    lm    
+9    33    2.2.12  Dialog: Zuordnung[LE98] HW/SW Umbaumeisterei           0.067    lm    
+9    34    2.3.3  Prozess für Stornierung           0.067    lm    
+9    35    2.2.5.2.1 Kontextmenü Navigationsbaum[LE26]           0.066    lm    
+9    36    5.5 Archivierungskonzept[LE187]           0.063    lm    
+9    37    2.2.8  Dialog: Auftragsinhalte[LE93] übernehmen           0.063    lm    1
+9    38    2.2.15  Dialog: Kurztest anzeigen           0.062    lm    
+9    39    2.2.9 Dialog: Fahrzeughistorie[LE94]           0.062    lm    
+9    40    5.4.1 Auslöser[LE184] „Statuswechsel“ und „PIT Auftragseingang“       0.052    lm        
+9    41    2.2.29  Dialog: Info[LE155]           0.051    lm    
+9    42    2.2.5.1.2 Tabellenspalten           0.051    lm    
+9    43    2.1.1  Benutzerrechte           0.049    lm    
+9    44    2.2.3 Zugriff           0.048    lm    
+9    45    2.3.4  Prozess für Ablehung           0.043    lm    
+9    46    2.2.7.2.1 Dialog: Montageberichtkatalog           0.042    lm    
+9    47    3.1.1 FO: User           0.041    lm    
+9    48    2.2.1.1 Detailbereich allgemein           0.041    lm    
+9    49    1.2 Prozessbeschreibung           0.040    lm    
+9    50    3.1.3 FO: Configuration           0.039    lm    
+9    51    5.1.3 Paralleles Anlegen von Positionen           0.038    lm    
+9    52    2.2.6 Offener Auftrag – Hinweismeldung           0.037    lm    
+9    53    5.1.1 Richtung: PiT zu VEEMOS           0.035    lm    
+9    54    5.1.2 Richtung: VEEMOS zu PiT           0.033    lm    
+9    55    2.2.5.3 Kopfbereich           0.033    lm    
+9    56    4 Externe Schnittstellen           0.032    lm    
+9    57    5.1 Kommunikation und  Positionsabgleich zwischen PiT und der Auftragsverwaltung[LE179] zu Montageberichten[LE180]           0.031    lm    
+9    58    2.1.9 Herunterladen von[LE10] Anhängen           0.031    lm    
+9    59    5 Technische Aspekte[LE178]           0.031    lm    
+9    60    2.2.5.1 Filter           0.031    lm    
+9    61    2.1 Generelle Anforderungen           0.030    lm    
+9    62    5.3 Sperrkonzept           0.030    lm    
+9    63    2.2.5 E/E Auftragsverwaltung           0.030    lm    5
+9    64    2.1.12  Enablement und Sichtbarkeit           0.030    lm    
+9    65    5.3.1  Optimistisches Sperren           0.029    lm    
+9    66    2.1.20 E/E Auftrag-Nummernformat           0.029    lm    
+9    67    2.1.14 Internationalisierung           0.029    lm    
+9    68    2 Navigation und Dialogabläufe           0.029    lm    
+9    69    2.1.19 FiNAS-Nummernformat           0.028    lm    
+9    70    2.2.4 Synchronisierung           0.028    lm    
+9    71    2.2.28  Dialog: Baureihen zuordnen           0.028    lm    
+9    72    2.2.26  Dialog: Benutzer verwalten           0.028    lm    
+9    73    2.2 Oberflächen           0.028    lm    
+9    74    2.1.17 Benutzereinstellungen           0.028    lm    
+9    75    2.1.18 Datumsformat           0.028    lm    
+9    76    2.2.2 Allgemeine Dialoge           0.028    lm    
+9    77    2.1.10 Filtern von Auswahllisten           0.028    lm    
+9    78    2.1.8 Export von Tabelleninhalten           0.028    lm    
+9    79    2.1.16 Auflösung und Fenstergröße           0.028    lm    
+9    80    2.1.13 Tab-Reihenfolge           0.027    lm    
+9    81    2.1.3 Sortieren von Tabellen           0.027    lm    
+9    82    2.1.11 Hilfe[LE11]           0.027    lm    
+9    83    2.1.6 Benannte Sichten von Tabellen           0.027    lm    
+9    84    2.1.4  Spaltenbreiten und -positionen in Tabellen           0.027    lm    
+9    85    2.1.7  Kopieren von Tabelleninhalten           0.027    lm    
+9    86    2.2.1 Master- und Detailbereich           0.026    lm    
+9    87    2.1.5  Ein und Ausblenden von Tabellenspalten           0.026    lm    
+9    88    2.1.15 Spracheinstellung           0.026    lm    
+9    89    2.1.2 Filtern von Tabellen           0.026    lm    
+9    90    1.1 Ausgangssituation           0.026    lm    
+10    0    2.2.7  Dialog: (Reinen) E/E Auftrag[LE54] anlegen/bearbeiten           0.516    lm    5
+10    1    2.2.23  Dialog: Montageberichtskatalog[LE121]           0.279    lm    
+10    2    2.2.7.2 Dialog: Montagebericht bearbeiten & anzeigen           0.269    lm    
+10    3    2.2.7.1 Bereich Anhänge           0.266    lm    
+10    4    2.2.25  Dialog: Massenbearbeitung[LE135] von Aufträgen           0.236    lm    
+10    5    2.3.1  Prozess für einen E/E Auftrag auf Basis PiT           0.227    lm    
+10    6    2.2.5.5 E/E Auftragsverwaltung Mastertabelle           0.222    lm    
+10    7    2.3.2  Prozess für einen Reinen E/E Auftrag auf Basis VEEMOS           0.203    lm    
+10    8    2.2.24 Dialog: Massenanlage[LE124] (reine) E/E Aufträge           0.199    lm    4
+10    9    6 Glossar           0.186    lm    
+10    10    2.2.5.3.1 Menüleiste           0.169    lm    
+10    11    2.2.5.6  E/E Auftragsverwaltung Detailbereich[LE51]           0.123    lm    
+10    12    2.2.18 Dialog: Auswertung Lebenslauf[LE115]           0.112    lm    
+10    13    2.2.5.2.2 Kontextmenü Masterbereich           0.104    lm    
+10    14    5.4.2 Auslöser „Zuständigkeitswechsel[LE185]“           0.102    lm    2
+10    15    2.2.27  Dialog: Benutzer pflegen           0.100    lm    
+10    16    2.2.19  Dialog: FiNAS-Fahrzeugdatensätze anzeigen           0.099    lm    
+10    17    2.2.5.1.1 Navigationsbaum           0.095    lm    
+10    18    2.2.14 Dialog: Kurztest laden           0.094    lm    
+10    19    2.2.5.3.2 Toolbar           0.093    lm    
+10    20    3.1.2 FO: AuthorizationProfile           0.091    lm    
+10    21    5.2 Berechtigungskonzept           0.091    lm    
+10    22    2.2.11  Dialog: Reinen[LE97] E/E Auftrag zuordnen           0.091    lm    
+10    23    2.2.22  Dialog: Messumfängekatalog[LE120]           0.087    lm    
+10    24    2.2.16 Dialog: Ausstattung laden           0.087    lm    
+10    25    2.2.5.4 Zugriffsberechtigung           0.084    lm    
+10    26    2.2.13  Dialog: (Neue) Meisterei anlegen/bearbeiten           0.082    lm    
+10    27    2.2.21  Dialog: Kontierungsverwaltung[LE119]           0.080    lm    
+10    28    5.3.2 Explizites Sperren           0.078    lm    
+10    29    2.2.10 Dialog: Auftrag anzeigen[LE95]           0.077    lm    
+10    30    2.3.5  Prozess bei diversen Zielzuständen           0.073    lm    
+10    31    2.3  Auftragstatus           0.071    lm    
+10    32    2.2.17 Dialog: Ausstattung anzeigen           0.071    lm    
+10    33    2.2.8  Dialog: Auftragsinhalte[LE93] übernehmen           0.069    lm    
+10    34    2.2.12  Dialog: Zuordnung[LE98] HW/SW Umbaumeisterei           0.069    lm    3
+10    35    2.3.3  Prozess für Stornierung           0.065    lm    
+10    36    2.2.5.2.1 Kontextmenü Navigationsbaum[LE26]           0.064    lm    
+10    37    2.2.9 Dialog: Fahrzeughistorie[LE94]           0.061    lm    
+10    38    5.5 Archivierungskonzept[LE187]           0.061    lm    
+10    39    2.2.15  Dialog: Kurztest anzeigen           0.057    lm    
+10    40    5.4.1 Auslöser[LE184] „Statuswechsel“ und „PIT Auftragseingang“       0.052    lm        1
+10    41    2.2.5.1.2 Tabellenspalten           0.049    lm    
+10    42    2.2.29  Dialog: Info[LE155]           0.047    lm    
+10    43    2.2.1.1 Detailbereich allgemein           0.047    lm    
+10    44    2.2.3 Zugriff           0.046    lm    
+10    45    2.2.7.2.1 Dialog: Montageberichtkatalog           0.042    lm    
+10    46    2.3.4  Prozess für Ablehung           0.039    lm    
+10    47    2.1.1  Benutzerrechte           0.039    lm    
+10    48    1.2 Prozessbeschreibung           0.038    lm    
+10    49    2.2.6 Offener Auftrag – Hinweismeldung           0.038    lm    
+10    50    3.1.1 FO: User           0.036    lm    
+10    51    3.1.3 FO: Configuration           0.035    lm    
+10    52    2.1.18 Datumsformat           0.029    lm    
+10    53    5.1 Kommunikation und  Positionsabgleich zwischen PiT und der Auftragsverwaltung[LE179] zu Montageberichten[LE180]           0.027    lm    
+10    54    5.1.3 Paralleles Anlegen von Positionen           0.026    lm    
+10    55    5.1.1 Richtung: PiT zu VEEMOS           0.024    lm    
+10    56    2.1.9 Herunterladen von[LE10] Anhängen           0.023    lm    
+10    57    2.1.12  Enablement und Sichtbarkeit           0.023    lm    
+10    58    2.2.5.3 Kopfbereich           0.023    lm    
+10    59    2.1.3 Sortieren von Tabellen           0.023    lm    
+10    60    2.2.5 E/E Auftragsverwaltung           0.022    lm    
+10    61    2.1.4  Spaltenbreiten und -positionen in Tabellen           0.022    lm    
+10    62    2.1.6 Benannte Sichten von Tabellen           0.022    lm    
+10    63    2.1.20 E/E Auftrag-Nummernformat           0.022    lm    
+10    64    4 Externe Schnittstellen           0.022    lm    
+10    65    2.1.8 Export von Tabelleninhalten           0.022    lm    
+10    66    2.1.10 Filtern von Auswahllisten           0.022    lm    
+10    67    2.1.11 Hilfe[LE11]           0.022    lm    
+10    68    2.1.15 Spracheinstellung           0.022    lm    
+10    69    2.2.2 Allgemeine Dialoge           0.022    lm    
+10    70    5.3 Sperrkonzept           0.021    lm    
+10    71    5.1.2 Richtung: VEEMOS zu PiT           0.021    lm    
+10    72    5.3.1  Optimistisches Sperren           0.021    lm    
+10    73    2.2.26  Dialog: Benutzer verwalten           0.021    lm    
+10    74    2.2 Oberflächen           0.021    lm    
+10    75    2.1.17 Benutzereinstellungen           0.021    lm    
+10    76    2.1.14 Internationalisierung           0.021    lm    
+10    77    2.1.5  Ein und Ausblenden von Tabellenspalten           0.021    lm    
+10    78    1.1 Ausgangssituation           0.021    lm    
+10    79    2.1.19 FiNAS-Nummernformat           0.021    lm    
+10    80    2.1.2 Filtern von Tabellen           0.021    lm    
+10    81    2.1.7  Kopieren von Tabelleninhalten           0.021    lm    
+10    82    2.2.28  Dialog: Baureihen zuordnen           0.021    lm    
+10    83    2 Navigation und Dialogabläufe           0.021    lm    
+10    84    2.1 Generelle Anforderungen           0.021    lm    
+10    85    2.2.4 Synchronisierung           0.021    lm    
+10    86    2.1.13 Tab-Reihenfolge           0.020    lm    
+10    87    2.2.1 Master- und Detailbereich           0.020    lm    
+10    88    2.1.16 Auflösung und Fenstergröße           0.020    lm    
+10    89    2.2.5.1 Filter           0.020    lm    
+10    90    5 Technische Aspekte[LE178]           0.020    lm    
+11    0    2.2.7  Dialog: (Reinen) E/E Auftrag[LE54] anlegen/bearbeiten           0.507    lm    1
+11    1    2.2.23  Dialog: Montageberichtskatalog[LE121]           0.277    lm    
+11    2    2.2.7.2 Dialog: Montagebericht bearbeiten & anzeigen           0.256    lm    2
+11    3    2.2.7.1 Bereich Anhänge           0.255    lm    
+11    4    2.2.25  Dialog: Massenbearbeitung[LE135] von Aufträgen           0.234    lm    
+11    5    2.3.1  Prozess für einen E/E Auftrag auf Basis PiT           0.223    lm    
+11    6    2.2.5.5 E/E Auftragsverwaltung Mastertabelle           0.221    lm    3
+11    7    2.3.2  Prozess für einen Reinen E/E Auftrag auf Basis VEEMOS           0.206    lm    
+11    8    2.2.24 Dialog: Massenanlage[LE124] (reine) E/E Aufträge           0.198    lm    
+11    9    6 Glossar           0.186    lm    
+11    10    2.2.5.3.1 Menüleiste           0.163    lm    
+11    11    2.2.5.6  E/E Auftragsverwaltung Detailbereich[LE51]           0.126    lm    
+11    12    2.2.18 Dialog: Auswertung Lebenslauf[LE115]           0.118    lm    
+11    13    2.2.27  Dialog: Benutzer pflegen           0.108    lm    
+11    14    5.4.2 Auslöser „Zuständigkeitswechsel[LE185]“           0.108    lm    
+11    15    2.2.19  Dialog: FiNAS-Fahrzeugdatensätze anzeigen           0.103    lm    
+11    16    2.2.5.2.2 Kontextmenü Masterbereich           0.099    lm    
+11    17    5.2 Berechtigungskonzept           0.099    lm    
+11    18    3.1.2 FO: AuthorizationProfile           0.096    lm    
+11    19    2.2.5.1.1 Navigationsbaum           0.093    lm    
+11    20    2.2.14 Dialog: Kurztest laden           0.093    lm    
+11    21    2.2.22  Dialog: Messumfängekatalog[LE120]           0.089    lm    
+11    22    2.2.5.3.2 Toolbar           0.088    lm    
+11    23    2.2.11  Dialog: Reinen[LE97] E/E Auftrag zuordnen           0.087    lm    
+11    24    2.2.16 Dialog: Ausstattung laden           0.086    lm    
+11    25    2.2.13  Dialog: (Neue) Meisterei anlegen/bearbeiten           0.086    lm    
+11    26    2.2.21  Dialog: Kontierungsverwaltung[LE119]           0.085    lm    
+11    27    2.2.5.4 Zugriffsberechtigung           0.080    lm    
+11    28    5.3.2 Explizites Sperren           0.080    lm    
+11    29    2.2.10 Dialog: Auftrag anzeigen[LE95]           0.075    lm    4
+11    30    2.2.17 Dialog: Ausstattung anzeigen           0.074    lm    
+11    31    2.3  Auftragstatus           0.074    lm    
+11    32    2.2.12  Dialog: Zuordnung[LE98] HW/SW Umbaumeisterei           0.072    lm    
+11    33    2.3.3  Prozess für Stornierung           0.071    lm    
+11    34    2.2.5.2.1 Kontextmenü Navigationsbaum[LE26]           0.069    lm    
+11    35    2.3.5  Prozess bei diversen Zielzuständen           0.067    lm    
+11    36    2.2.8  Dialog: Auftragsinhalte[LE93] übernehmen           0.067    lm    
+11    37    5.5 Archivierungskonzept[LE187]           0.065    lm    
+11    38    2.2.9 Dialog: Fahrzeughistorie[LE94]           0.065    lm    
+11    39    2.2.15  Dialog: Kurztest anzeigen           0.060    lm    
+11    40    5.4.1 Auslöser[LE184] „Statuswechsel“ und „PIT Auftragseingang“       0.059    lm        
+11    41    2.2.29  Dialog: Info[LE155]           0.052    lm    
+11    42    2.2.5.1.2 Tabellenspalten           0.052    lm    
+11    43    2.2.1.1 Detailbereich allgemein           0.052    lm    
+11    44    2.2.3 Zugriff           0.050    lm    
+11    45    2.1.1  Benutzerrechte           0.049    lm    
+11    46    1.2 Prozessbeschreibung           0.047    lm    
+11    47    2.2.7.2.1 Dialog: Montageberichtkatalog           0.047    lm    
+11    48    2.3.4  Prozess für Ablehung           0.045    lm    
+11    49    3.1.1 FO: User           0.042    lm    
+11    50    3.1.3 FO: Configuration           0.040    lm    
+11    51    5.1.3 Paralleles Anlegen von Positionen           0.036    lm    
+11    52    2.2.6 Offener Auftrag – Hinweismeldung           0.035    lm    
+11    53    5.1 Kommunikation und  Positionsabgleich zwischen PiT und der Auftragsverwaltung[LE179] zu Montageberichten[LE180]           0.035    lm    
+11    54    5.1.1 Richtung: PiT zu VEEMOS           0.033    lm    
+11    55    2.1.18 Datumsformat           0.033    lm    
+11    56    2.1.12  Enablement und Sichtbarkeit           0.031    lm    
+11    57    2.1.9 Herunterladen von[LE10] Anhängen           0.030    lm    
+11    58    2.2.5.3 Kopfbereich           0.030    lm    
+11    59    2.1.6 Benannte Sichten von Tabellen           0.030    lm    
+11    60    2.1.4  Spaltenbreiten und -positionen in Tabellen           0.030    lm    
+11    61    2.1.3 Sortieren von Tabellen           0.030    lm    
+11    62    5.1.2 Richtung: VEEMOS zu PiT           0.030    lm    
+11    63    2.2.4 Synchronisierung           0.030    lm    
+11    64    2.1.8 Export von Tabelleninhalten           0.029    lm    
+11    65    5.3 Sperrkonzept           0.029    lm    
+11    66    2.1.5  Ein und Ausblenden von Tabellenspalten           0.029    lm    
+11    67    2.1.15 Spracheinstellung           0.029    lm    
+11    68    4 Externe Schnittstellen           0.028    lm    
+11    69    2.1 Generelle Anforderungen           0.028    lm    
+11    70    2.1.7  Kopieren von Tabelleninhalten           0.028    lm    
+11    71    2.1.11 Hilfe[LE11]           0.028    lm    
+11    72    2.2.5 E/E Auftragsverwaltung           0.028    lm    5
+11    73    2 Navigation und Dialogabläufe           0.028    lm    
+11    74    2.1.20 E/E Auftrag-Nummernformat           0.028    lm    
+11    75    2.1.13 Tab-Reihenfolge           0.028    lm    
+11    76    2.1.19 FiNAS-Nummernformat           0.027    lm    
+11    77    2.1.2 Filtern von Tabellen           0.027    lm    
+11    78    1.1 Ausgangssituation           0.027    lm    
+11    79    5 Technische Aspekte[LE178]           0.027    lm    
+11    80    5.3.1  Optimistisches Sperren           0.027    lm    
+11    81    2.1.16 Auflösung und Fenstergröße           0.026    lm    
+11    82    2.2.28  Dialog: Baureihen zuordnen           0.026    lm    
+11    83    2.2.26  Dialog: Benutzer verwalten           0.026    lm    
+11    84    2.2 Oberflächen           0.026    lm    
+11    85    2.1.17 Benutzereinstellungen           0.026    lm    
+11    86    2.2.5.1 Filter           0.026    lm    
+11    87    2.2.2 Allgemeine Dialoge           0.026    lm    
+11    88    2.1.14 Internationalisierung           0.026    lm    
+11    89    2.2.1 Master- und Detailbereich           0.026    lm    
+11    90    2.1.10 Filtern von Auswahllisten           0.026    lm    
+12    0    2.2.7  Dialog: (Reinen) E/E Auftrag[LE54] anlegen/bearbeiten           0.494    lm    3
+12    1    2.2.23  Dialog: Montageberichtskatalog[LE121]           0.291    lm    
+12    2    2.2.7.2 Dialog: Montagebericht bearbeiten & anzeigen           0.235    lm    
+12    3    2.2.25  Dialog: Massenbearbeitung[LE135] von Aufträgen           0.233    lm    
+12    4    2.2.7.1 Bereich Anhänge           0.229    lm    
+12    5    2.2.5.5 E/E Auftragsverwaltung Mastertabelle           0.217    lm    2
+12    6    2.3.1  Prozess für einen E/E Auftrag auf Basis PiT           0.208    lm    
+12    7    2.3.2  Prozess für einen Reinen E/E Auftrag auf Basis VEEMOS           0.208    lm    
+12    8    2.2.24 Dialog: Massenanlage[LE124] (reine) E/E Aufträge           0.203    lm    
+12    9    6 Glossar           0.179    lm    
+12    10    2.2.5.3.1 Menüleiste           0.173    lm    
+12    11    2.2.5.6  E/E Auftragsverwaltung Detailbereich[LE51]           0.137    lm    
+12    12    2.2.18 Dialog: Auswertung Lebenslauf[LE115]           0.134    lm    
+12    13    2.2.27  Dialog: Benutzer pflegen           0.121    lm    
+12    14    2.2.19  Dialog: FiNAS-Fahrzeugdatensätze anzeigen           0.121    lm    
+12    15    5.4.2 Auslöser „Zuständigkeitswechsel[LE185]“           0.118    lm    
+12    16    5.2 Berechtigungskonzept           0.111    lm    
+12    17    3.1.2 FO: AuthorizationProfile           0.111    lm    
+12    18    2.2.5.2.2 Kontextmenü Masterbereich           0.109    lm    
+12    19    2.2.13  Dialog: (Neue) Meisterei anlegen/bearbeiten           0.102    lm    
+12    20    2.2.21  Dialog: Kontierungsverwaltung[LE119]           0.100    lm    
+12    21    2.2.14 Dialog: Kurztest laden           0.097    lm    
+12    22    2.2.22  Dialog: Messumfängekatalog[LE120]           0.096    lm    
+12    23    2.2.5.1.1 Navigationsbaum           0.095    lm    
+12    24    2.2.5.3.2 Toolbar           0.093    lm    1
+12    25    2.2.12  Dialog: Zuordnung[LE98] HW/SW Umbaumeisterei           0.092    lm    
+12    26    2.3  Auftragstatus           0.090    lm    
+12    27    2.2.16 Dialog: Ausstattung laden           0.089    lm    
+12    28    2.3.3  Prozess für Stornierung           0.087    lm    
+12    29    2.2.9 Dialog: Fahrzeughistorie[LE94]           0.084    lm    
+12    30    5.3.2 Explizites Sperren           0.083    lm    
+12    31    2.2.17 Dialog: Ausstattung anzeigen           0.083    lm    
+12    32    2.2.5.2.1 Kontextmenü Navigationsbaum[LE26]           0.082    lm    
+12    33    2.2.11  Dialog: Reinen[LE97] E/E Auftrag zuordnen           0.081    lm    
+12    34    5.4.1 Auslöser[LE184] „Statuswechsel“ und „PIT Auftragseingang“       0.077    lm        
+12    35    2.2.10 Dialog: Auftrag anzeigen[LE95]           0.074    lm    
+12    36    5.5 Archivierungskonzept[LE187]           0.071    lm    
+12    37    2.3.5  Prozess bei diversen Zielzuständen           0.071    lm    
+12    38    2.2.5.4 Zugriffsberechtigung           0.069    lm    4
+12    39    2.2.1.1 Detailbereich allgemein           0.068    lm    
+12    40    2.2.3 Zugriff           0.066    lm    
+12    41    2.2.15  Dialog: Kurztest anzeigen           0.065    lm    
+12    42    2.2.7.2.1 Dialog: Montageberichtkatalog           0.065    lm    
+12    43    1.2 Prozessbeschreibung           0.064    lm    
+12    44    2.1.1  Benutzerrechte           0.063    lm    
+12    45    2.3.4  Prozess für Ablehung           0.062    lm    
+12    46    2.2.8  Dialog: Auftragsinhalte[LE93] übernehmen           0.060    lm    
+12    47    3.1.1 FO: User           0.060    lm    
+12    48    2.2.29  Dialog: Info[LE155]           0.058    lm    
+12    49    3.1.3 FO: Configuration           0.056    lm    
+12    50    2.2.5.1.2 Tabellenspalten           0.052    lm    
+12    51    2.1.18 Datumsformat           0.051    lm    
+12    52    5.1.3 Paralleles Anlegen von Positionen           0.050    lm    
+12    53    5.1 Kommunikation und  Positionsabgleich zwischen PiT und der Auftragsverwaltung[LE179] zu Montageberichten[LE180]           0.050    lm    
+12    54    5.1.1 Richtung: PiT zu VEEMOS           0.049    lm    
+12    55    2.1.3 Sortieren von Tabellen           0.049    lm    
+12    56    2.1.6 Benannte Sichten von Tabellen           0.048    lm    
+12    57    2.1.8 Export von Tabelleninhalten           0.048    lm    
+12    58    2.1.5  Ein und Ausblenden von Tabellenspalten           0.048    lm    
+12    59    2.1.4  Spaltenbreiten und -positionen in Tabellen           0.047    lm    
+12    60    2.1.12  Enablement und Sichtbarkeit           0.047    lm    
+12    61    2.1.2 Filtern von Tabellen           0.046    lm    
+12    62    5.1.2 Richtung: VEEMOS zu PiT           0.046    lm    
+12    63    2.2.4 Synchronisierung           0.046    lm    
+12    64    2.2.5.3 Kopfbereich           0.046    lm    
+12    65    2.2.5 E/E Auftragsverwaltung           0.045    lm    5
+12    66    2.1.15 Spracheinstellung           0.045    lm    
+12    67    5.3 Sperrkonzept           0.045    lm    
+12    68    4 Externe Schnittstellen           0.045    lm    
+12    69    2.1 Generelle Anforderungen           0.045    lm    
+12    70    2.2.2 Allgemeine Dialoge           0.045    lm    
+12    71    2.1.7  Kopieren von Tabelleninhalten           0.044    lm    
+12    72    2.2.28  Dialog: Baureihen zuordnen           0.044    lm    
+12    73    5.3.1  Optimistisches Sperren           0.044    lm    
+12    74    2.2.26  Dialog: Benutzer verwalten           0.044    lm    
+12    75    2.2 Oberflächen           0.044    lm    
+12    76    2.1.17 Benutzereinstellungen           0.044    lm    
+12    77    1.1 Ausgangssituation           0.044    lm    
+12    78    2.1.14 Internationalisierung           0.044    lm    
+12    79    2.1.16 Auflösung und Fenstergröße           0.044    lm    
+12    80    2.2.1 Master- und Detailbereich           0.044    lm    
+12    81    2 Navigation und Dialogabläufe           0.044    lm    
+12    82    2.1.20 E/E Auftrag-Nummernformat           0.044    lm    
+12    83    2.1.9 Herunterladen von[LE10] Anhängen           0.043    lm    
+12    84    2.1.19 FiNAS-Nummernformat           0.043    lm    
+12    85    5 Technische Aspekte[LE178]           0.043    lm    
+12    86    2.1.13 Tab-Reihenfolge           0.043    lm    
+12    87    2.1.11 Hilfe[LE11]           0.042    lm    
+12    88    2.2.5.1 Filter           0.042    lm    
+12    89    2.2.6 Offener Auftrag – Hinweismeldung           0.040    lm    
+12    90    2.1.10 Filtern von Auswahllisten           0.033    lm    
+13    0    2.2.7  Dialog: (Reinen) E/E Auftrag[LE54] anlegen/bearbeiten           0.500    lm    1
+13    1    2.2.23  Dialog: Montageberichtskatalog[LE121]           0.265    lm    
+13    2    2.2.7.2 Dialog: Montagebericht bearbeiten & anzeigen           0.253    lm    2
+13    3    2.2.7.1 Bereich Anhänge           0.251    lm    
+13    4    2.2.25  Dialog: Massenbearbeitung[LE135] von Aufträgen           0.225    lm    
+13    5    2.3.1  Prozess für einen E/E Auftrag auf Basis PiT           0.216    lm    
+13    6    2.2.5.5 E/E Auftragsverwaltung Mastertabelle           0.208    lm    
+13    7    2.3.2  Prozess für einen Reinen E/E Auftrag auf Basis VEEMOS           0.194    lm    
+13    8    2.2.24 Dialog: Massenanlage[LE124] (reine) E/E Aufträge           0.190    lm    
+13    9    6 Glossar           0.178    lm    
+13    10    2.2.5.3.1 Menüleiste           0.162    lm    
+13    11    2.2.5.6  E/E Auftragsverwaltung Detailbereich[LE51]           0.113    lm    
+13    12    2.2.18 Dialog: Auswertung Lebenslauf[LE115]           0.103    lm    
+13    13    5.4.2 Auslöser „Zuständigkeitswechsel[LE185]“           0.098    lm    
+13    14    2.2.19  Dialog: FiNAS-Fahrzeugdatensätze anzeigen           0.097    lm    
+13    15    2.2.5.2.2 Kontextmenü Masterbereich           0.096    lm    
+13    16    2.2.27  Dialog: Benutzer pflegen           0.095    lm    
+13    17    5.2 Berechtigungskonzept           0.088    lm    
+13    18    2.2.5.4 Zugriffsberechtigung           0.087    lm    
+13    19    2.2.14 Dialog: Kurztest laden           0.086    lm    
+13    20    2.2.5.1.1 Navigationsbaum           0.085    lm    
+13    21    2.2.5.3.2 Toolbar           0.085    lm    
+13    22    3.1.2 FO: AuthorizationProfile           0.084    lm    
+13    23    2.2.11  Dialog: Reinen[LE97] E/E Auftrag zuordnen           0.082    lm    
+13    24    2.2.13  Dialog: (Neue) Meisterei anlegen/bearbeiten           0.081    lm    
+13    25    2.2.22  Dialog: Messumfängekatalog[LE120]           0.080    lm    
+13    26    2.2.16 Dialog: Ausstattung laden           0.079    lm    
+13    27    2.2.21  Dialog: Kontierungsverwaltung[LE119]           0.077    lm    
+13    28    5.3.2 Explizites Sperren           0.070    lm    
+13    29    2.2.10 Dialog: Auftrag anzeigen[LE95]           0.069    lm    
+13    30    2.3  Auftragstatus           0.067    lm    
+13    31    2.2.12  Dialog: Zuordnung[LE98] HW/SW Umbaumeisterei           0.066    lm    
+13    32    2.3.5  Prozess bei diversen Zielzuständen           0.064    lm    
+13    33    2.2.8  Dialog: Auftragsinhalte[LE93] übernehmen           0.063    lm    
+13    34    2.2.5.2.1 Kontextmenü Navigationsbaum[LE26]           0.061    lm    
+13    35    2.3.3  Prozess für Stornierung           0.060    lm    
+13    36    2.2.17 Dialog: Ausstattung anzeigen           0.059    lm    
+13    37    5.5 Archivierungskonzept[LE187]           0.058    lm    
+13    38    2.2.9 Dialog: Fahrzeughistorie[LE94]           0.057    lm    
+13    39    5.4.1 Auslöser[LE184] „Statuswechsel“ und „PIT Auftragseingang“       0.052    lm        
+13    40    2.2.15  Dialog: Kurztest anzeigen           0.050    lm    
+13    41    2.2.29  Dialog: Info[LE155]           0.045    lm    
+13    42    2.2.3 Zugriff           0.044    lm    
+13    43    2.2.1.1 Detailbereich allgemein           0.042    lm    
+13    44    2.1.1  Benutzerrechte           0.039    lm    
+13    45    2.2.5.1.2 Tabellenspalten           0.039    lm    
+13    46    1.2 Prozessbeschreibung           0.038    lm    
+13    47    2.3.4  Prozess für Ablehung           0.037    lm    
+13    48    3.1.1 FO: User           0.037    lm    
+13    49    2.2.7.2.1 Dialog: Montageberichtkatalog           0.036    lm    5
+13    50    3.1.3 FO: Configuration           0.035    lm    
+13    51    2.2.6 Offener Auftrag – Hinweismeldung           0.033    lm    
+13    52    5.1.3 Paralleles Anlegen von Positionen           0.030    lm    
+13    53    2.2.5.3 Kopfbereich           0.030    lm    
+13    54    5.1 Kommunikation und  Positionsabgleich zwischen PiT und der Auftragsverwaltung[LE179] zu Montageberichten[LE180]           0.029    lm    
+13    55    2.1.18 Datumsformat           0.027    lm    
+13    56    2.1.20 E/E Auftrag-Nummernformat           0.026    lm    
+13    57    2.1.19 FiNAS-Nummernformat           0.026    lm    
+13    58    5.1.1 Richtung: PiT zu VEEMOS           0.026    lm    
+13    59    2.2.5.1 Filter           0.025    lm    
+13    60    5.1.2 Richtung: VEEMOS zu PiT           0.025    lm    
+13    61    2.1.9 Herunterladen von[LE10] Anhängen           0.025    lm    
+13    62    4 Externe Schnittstellen           0.025    lm    
+13    63    5 Technische Aspekte[LE178]           0.025    lm    
+13    64    2.1.16 Auflösung und Fenstergröße           0.025    lm    
+13    65    5.3.1  Optimistisches Sperren           0.024    lm    
+13    66    2.2.28  Dialog: Baureihen zuordnen           0.024    lm    
+13    67    2.2.26  Dialog: Benutzer verwalten           0.024    lm    
+13    68    2.2 Oberflächen           0.024    lm    
+13    69    2.1.17 Benutzereinstellungen           0.024    lm    
+13    70    2.2.1 Master- und Detailbereich           0.024    lm    
+13    71    2.1.14 Internationalisierung           0.024    lm    
+13    72    2.2.4 Synchronisierung           0.024    lm    
+13    73    5.3 Sperrkonzept           0.024    lm    
+13    74    2.2.2 Allgemeine Dialoge           0.024    lm    
+13    75    2.2.5 E/E Auftragsverwaltung           0.023    lm    
+13    76    2.1 Generelle Anforderungen           0.023    lm    
+13    77    2.1.8 Export von Tabelleninhalten           0.023    lm    
+13    78    2.1.6 Benannte Sichten von Tabellen           0.023    lm    
+13    79    2 Navigation und Dialogabläufe           0.022    lm    
+13    80    2.1.13 Tab-Reihenfolge           0.022    lm    
+13    81    2.1.5  Ein und Ausblenden von Tabellenspalten           0.022    lm    
+13    82    1.1 Ausgangssituation           0.022    lm    
+13    83    2.1.12  Enablement und Sichtbarkeit           0.022    lm    
+13    84    2.1.11 Hilfe[LE11]           0.021    lm    
+13    85    2.1.10 Filtern von Auswahllisten           0.021    lm    
+13    86    2.1.7  Kopieren von Tabelleninhalten           0.021    lm    
+13    87    2.1.4  Spaltenbreiten und -positionen in Tabellen           0.020    lm    
+13    88    2.1.2 Filtern von Tabellen           0.020    lm    4
+13    89    2.1.15 Spracheinstellung           0.020    lm    
+13    90    2.1.3 Sortieren von Tabellen           0.019    lm    3
+14    0    2.2.7  Dialog: (Reinen) E/E Auftrag[LE54] anlegen/bearbeiten           0.480    lm    3
+14    1    2.2.23  Dialog: Montageberichtskatalog[LE121]           0.263    lm    
+14    2    2.2.7.1 Bereich Anhänge           0.245    lm    
+14    3    2.2.7.2 Dialog: Montagebericht bearbeiten & anzeigen           0.244    lm    
+14    4    2.2.25  Dialog: Massenbearbeitung[LE135] von Aufträgen           0.217    lm    
+14    5    2.3.1  Prozess für einen E/E Auftrag auf Basis PiT           0.206    lm    
+14    6    2.2.5.5 E/E Auftragsverwaltung Mastertabelle           0.203    lm    
+14    7    2.3.2  Prozess für einen Reinen E/E Auftrag auf Basis VEEMOS           0.189    lm    2
+14    8    2.2.24 Dialog: Massenanlage[LE124] (reine) E/E Aufträge           0.183    lm    
+14    9    6 Glossar           0.177    lm    
+14    10    2.2.5.3.1 Menüleiste           0.157    lm    5
+14    11    2.2.5.6  E/E Auftragsverwaltung Detailbereich[LE51]           0.118    lm    
+14    12    2.2.18 Dialog: Auswertung Lebenslauf[LE115]           0.106    lm    
+14    13    2.2.27  Dialog: Benutzer pflegen           0.104    lm    
+14    14    2.2.19  Dialog: FiNAS-Fahrzeugdatensätze anzeigen           0.101    lm    
+14    15    2.2.5.2.2 Kontextmenü Masterbereich           0.095    lm    
+14    16    5.2 Berechtigungskonzept           0.094    lm    
+14    17    5.4.2 Auslöser „Zuständigkeitswechsel[LE185]“           0.092    lm    
+14    18    3.1.2 FO: AuthorizationProfile           0.090    lm    
+14    19    2.2.5.4 Zugriffsberechtigung           0.087    lm    
+14    20    2.2.5.1.1 Navigationsbaum           0.085    lm    
+14    21    2.2.5.3.2 Toolbar           0.084    lm    
+14    22    2.2.14 Dialog: Kurztest laden           0.083    lm    
+14    23    2.2.22  Dialog: Messumfängekatalog[LE120]           0.083    lm    
+14    24    2.2.13  Dialog: (Neue) Meisterei anlegen/bearbeiten           0.079    lm    
+14    25    2.2.11  Dialog: Reinen[LE97] E/E Auftrag zuordnen           0.079    lm    
+14    26    2.2.16 Dialog: Ausstattung laden           0.078    lm    
+14    27    2.2.21  Dialog: Kontierungsverwaltung[LE119]           0.077    lm    
+14    28    5.3.2 Explizites Sperren           0.071    lm    
+14    29    2.2.17 Dialog: Ausstattung anzeigen           0.069    lm    
+14    30    2.3.5  Prozess bei diversen Zielzuständen           0.069    lm    
+14    31    2.2.10 Dialog: Auftrag anzeigen[LE95]           0.068    lm    
+14    32    2.2.12  Dialog: Zuordnung[LE98] HW/SW Umbaumeisterei           0.068    lm    1
+14    33    2.3  Auftragstatus           0.066    lm    4
+14    34    2.3.3  Prozess für Stornierung           0.063    lm    
+14    35    2.2.5.2.1 Kontextmenü Navigationsbaum[LE26]           0.062    lm    
+14    36    2.2.8  Dialog: Auftragsinhalte[LE93] übernehmen           0.062    lm    
+14    37    2.2.9 Dialog: Fahrzeughistorie[LE94]           0.062    lm    
+14    38    5.5 Archivierungskonzept[LE187]           0.061    lm    
+14    39    2.2.15  Dialog: Kurztest anzeigen           0.058    lm    
+14    40    5.4.1 Auslöser[LE184] „Statuswechsel“ und „PIT Auftragseingang“       0.053    lm        
+14    41    2.2.3 Zugriff           0.052    lm    
+14    42    2.2.1.1 Detailbereich allgemein           0.050    lm    
+14    43    2.2.5.1.2 Tabellenspalten           0.049    lm    
+14    44    2.1.1  Benutzerrechte           0.048    lm    
+14    45    2.2.29  Dialog: Info[LE155]           0.047    lm    
+14    46    2.2.7.2.1 Dialog: Montageberichtkatalog           0.045    lm    
+14    47    1.2 Prozessbeschreibung           0.045    lm    
+14    48    2.3.4  Prozess für Ablehung           0.043    lm    
+14    49    3.1.1 FO: User           0.042    lm    
+14    50    3.1.3 FO: Configuration           0.041    lm    
+14    51    5.1.3 Paralleles Anlegen von Positionen           0.037    lm    
+14    52    4 Externe Schnittstellen           0.037    lm    
+14    53    2.1.18 Datumsformat           0.037    lm    
+14    54    2.2.6 Offener Auftrag – Hinweismeldung           0.037    lm    
+14    55    2.1.3 Sortieren von Tabellen           0.037    lm    
+14    56    2.1.6 Benannte Sichten von Tabellen           0.036    lm    
+14    57    5.1.1 Richtung: PiT zu VEEMOS           0.036    lm    
+14    58    5.3 Sperrkonzept           0.036    lm    
+14    59    2.2.5.3 Kopfbereich           0.036    lm    
+14    60    2.1.8 Export von Tabelleninhalten           0.036    lm    
+14    61    5.3.1  Optimistisches Sperren           0.036    lm    
+14    62    5.1 Kommunikation und  Positionsabgleich zwischen PiT und der Auftragsverwaltung[LE179] zu Montageberichten[LE180]           0.036    lm    
+14    63    2.2.28  Dialog: Baureihen zuordnen           0.036    lm    
+14    64    2.2.26  Dialog: Benutzer verwalten           0.036    lm    
+14    65    2.2 Oberflächen           0.036    lm    
+14    66    2.1.17 Benutzereinstellungen           0.036    lm    
+14    67    2.2.2 Allgemeine Dialoge           0.035    lm    
+14    68    5 Technische Aspekte[LE178]           0.035    lm    
+14    69    2.1.20 E/E Auftrag-Nummernformat           0.035    lm    
+14    70    5.1.2 Richtung: VEEMOS zu PiT           0.035    lm    
+14    71    2.1.14 Internationalisierung           0.035    lm    
+14    72    2.1.16 Auflösung und Fenstergröße           0.035    lm    
+14    73    2.1.12  Enablement und Sichtbarkeit           0.035    lm    
+14    74    2.2.1 Master- und Detailbereich           0.035    lm    
+14    75    2.2.5.1 Filter           0.035    lm    
+14    76    2.1.2 Filtern von Tabellen           0.035    lm    
+14    77    2.1.5  Ein und Ausblenden von Tabellenspalten           0.034    lm    
+14    78    2.1.19 FiNAS-Nummernformat           0.034    lm    
+14    79    2 Navigation und Dialogabläufe           0.034    lm    
+14    80    2.2.4 Synchronisierung           0.034    lm    
+14    81    2.1 Generelle Anforderungen           0.034    lm    
+14    82    2.1.4  Spaltenbreiten und -positionen in Tabellen           0.033    lm    
+14    83    2.1.7  Kopieren von Tabelleninhalten           0.033    lm    
+14    84    2.2.5 E/E Auftragsverwaltung           0.033    lm    
+14    85    1.1 Ausgangssituation           0.032    lm    
+14    86    2.1.10 Filtern von Auswahllisten           0.032    lm    
+14    87    2.1.11 Hilfe[LE11]           0.031    lm    
+14    88    2.1.9 Herunterladen von[LE10] Anhängen           0.031    lm    
+14    89    2.1.15 Spracheinstellung           0.031    lm    
+14    90    2.1.13 Tab-Reihenfolge           0.030    lm    
+15    0    2.2.7  Dialog: (Reinen) E/E Auftrag[LE54] anlegen/bearbeiten           0.469    lm    1
+15    1    2.2.23  Dialog: Montageberichtskatalog[LE121]           0.258    lm    
+15    2    2.2.7.2 Dialog: Montagebericht bearbeiten & anzeigen           0.240    lm    
+15    3    2.2.7.1 Bereich Anhänge           0.233    lm    
+15    4    2.2.25  Dialog: Massenbearbeitung[LE135] von Aufträgen           0.210    lm    
+15    5    2.3.1  Prozess für einen E/E Auftrag auf Basis PiT           0.201    lm    
+15    6    2.2.5.5 E/E Auftragsverwaltung Mastertabelle           0.200    lm    
+15    7    2.3.2  Prozess für einen Reinen E/E Auftrag auf Basis VEEMOS           0.184    lm    
+15    8    2.2.24 Dialog: Massenanlage[LE124] (reine) E/E Aufträge           0.183    lm    
+15    9    6 Glossar           0.172    lm    
+15    10    2.2.5.3.1 Menüleiste           0.150    lm    
+15    11    2.2.5.6  E/E Auftragsverwaltung Detailbereich[LE51]           0.115    lm    
+15    12    2.2.18 Dialog: Auswertung Lebenslauf[LE115]           0.107    lm    
+15    13    2.2.19  Dialog: FiNAS-Fahrzeugdatensätze anzeigen           0.105    lm    
+15    14    2.2.27  Dialog: Benutzer pflegen           0.102    lm    
+15    15    5.4.2 Auslöser „Zuständigkeitswechsel[LE185]“           0.095    lm    
+15    16    5.2 Berechtigungskonzept           0.090    lm    
+15    17    2.2.5.2.2 Kontextmenü Masterbereich           0.090    lm    
+15    18    3.1.2 FO: AuthorizationProfile           0.087    lm    
+15    19    2.2.5.4 Zugriffsberechtigung           0.085    lm    
+15    20    2.2.22  Dialog: Messumfängekatalog[LE120]           0.080    lm    
+15    21    2.2.5.1.1 Navigationsbaum           0.079    lm    
+15    22    2.2.13  Dialog: (Neue) Meisterei anlegen/bearbeiten           0.079    lm    
+15    23    2.2.21  Dialog: Kontierungsverwaltung[LE119]           0.077    lm    
+15    24    2.2.14 Dialog: Kurztest laden           0.077    lm    3
+15    25    2.2.11  Dialog: Reinen[LE97] E/E Auftrag zuordnen           0.076    lm    
+15    26    2.2.5.3.2 Toolbar           0.072    lm    2
+15    27    2.2.16 Dialog: Ausstattung laden           0.071    lm    4
+15    28    2.2.10 Dialog: Auftrag anzeigen[LE95]           0.069    lm    
+15    29    2.2.12  Dialog: Zuordnung[LE98] HW/SW Umbaumeisterei           0.066    lm    
+15    30    5.3.2 Explizites Sperren           0.065    lm    
+15    31    2.2.17 Dialog: Ausstattung anzeigen           0.064    lm    
+15    32    2.3  Auftragstatus           0.064    lm    
+15    33    2.2.9 Dialog: Fahrzeughistorie[LE94]           0.062    lm    
+15    34    2.2.5.2.1 Kontextmenü Navigationsbaum[LE26]           0.061    lm    
+15    35    5.5 Archivierungskonzept[LE187]           0.060    lm    
+15    36    2.3.5  Prozess bei diversen Zielzuständen           0.060    lm    
+15    37    2.2.8  Dialog: Auftragsinhalte[LE93] übernehmen           0.060    lm    
+15    38    2.3.3  Prozess für Stornierung           0.059    lm    
+15    39    5.4.1 Auslöser[LE184] „Statuswechsel“ und „PIT Auftragseingang“       0.054    lm        
+15    40    2.2.15  Dialog: Kurztest anzeigen           0.052    lm    
+15    41    2.2.29  Dialog: Info[LE155]           0.050    lm    
+15    42    2.1.1  Benutzerrechte           0.048    lm    5
+15    43    2.2.3 Zugriff           0.048    lm    
+15    44    1.2 Prozessbeschreibung           0.046    lm    
+15    45    2.2.5.1.2 Tabellenspalten           0.046    lm    
+15    46    3.1.1 FO: User           0.044    lm    
+15    47    2.2.1.1 Detailbereich allgemein           0.043    lm    
+15    48    2.2.7.2.1 Dialog: Montageberichtkatalog           0.042    lm    
+15    49    2.3.4  Prozess für Ablehung           0.041    lm    
+15    50    5.1.3 Paralleles Anlegen von Positionen           0.040    lm    
+15    51    3.1.3 FO: Configuration           0.039    lm    
+15    52    2.1.20 E/E Auftrag-Nummernformat           0.036    lm    
+15    53    5.1.1 Richtung: PiT zu VEEMOS           0.036    lm    
+15    54    4 Externe Schnittstellen           0.036    lm    
+15    55    2.1.19 FiNAS-Nummernformat           0.036    lm    
+15    56    5 Technische Aspekte[LE178]           0.035    lm    
+15    57    2.1.18 Datumsformat           0.035    lm    
+15    58    2.2.5.3 Kopfbereich           0.035    lm    
+15    59    2.2.5.1 Filter           0.035    lm    
+15    60    5.1.2 Richtung: VEEMOS zu PiT           0.035    lm    
+15    61    5.3.1  Optimistisches Sperren           0.034    lm    
+15    62    2.1 Generelle Anforderungen           0.034    lm    
+15    63    2.2.2 Allgemeine Dialoge           0.034    lm    
+15    64    5.3 Sperrkonzept           0.034    lm    
+15    65    2.1.14 Internationalisierung           0.034    lm    
+15    66    5.1 Kommunikation und  Positionsabgleich zwischen PiT und der Auftragsverwaltung[LE179] zu Montageberichten[LE180]           0.034    lm    
+15    67    2.2.26  Dialog: Benutzer verwalten           0.034    lm    
+15    68    2.2.28  Dialog: Baureihen zuordnen           0.034    lm    
+15    69    2.1.17 Benutzereinstellungen           0.034    lm    
+15    70    2.2 Oberflächen           0.034    lm    
+15    71    2.1.16 Auflösung und Fenstergröße           0.033    lm    
+15    72    2.2.1 Master- und Detailbereich           0.033    lm    
+15    73    2.2.5 E/E Auftragsverwaltung           0.033    lm    
+15    74    2.1.8 Export von Tabelleninhalten           0.033    lm    
+15    75    2 Navigation und Dialogabläufe           0.032    lm    
+15    76    2.2.6 Offener Auftrag – Hinweismeldung           0.032    lm    
+15    77    2.1.6 Benannte Sichten von Tabellen           0.032    lm    
+15    78    1.1 Ausgangssituation           0.032    lm    
+15    79    2.1.3 Sortieren von Tabellen           0.032    lm    
+15    80    2.1.11 Hilfe[LE11]           0.032    lm    
+15    81    2.1.9 Herunterladen von[LE10] Anhängen           0.031    lm    
+15    82    2.1.5  Ein und Ausblenden von Tabellenspalten           0.031    lm    
+15    83    2.2.4 Synchronisierung           0.031    lm    
+15    84    2.1.12  Enablement und Sichtbarkeit           0.031    lm    
+15    85    2.1.13 Tab-Reihenfolge           0.031    lm    
+15    86    2.1.2 Filtern von Tabellen           0.031    lm    
+15    87    2.1.4  Spaltenbreiten und -positionen in Tabellen           0.030    lm    
+15    88    2.1.7  Kopieren von Tabelleninhalten           0.030    lm    
+15    89    2.1.15 Spracheinstellung           0.029    lm    
+15    90    2.1.10 Filtern von Auswahllisten           0.029    lm    
+18    0    2.2.7  Dialog: (Reinen) E/E Auftrag[LE54] anlegen/bearbeiten           0.498    lm    3
+18    1    2.2.23  Dialog: Montageberichtskatalog[LE121]           0.260    lm    
+18    2    2.2.7.2 Dialog: Montagebericht bearbeiten & anzeigen           0.247    lm    
+18    3    2.2.7.1 Bereich Anhänge           0.244    lm    
+18    4    2.2.25  Dialog: Massenbearbeitung[LE135] von Aufträgen           0.221    lm    2
+18    5    2.3.1  Prozess für einen E/E Auftrag auf Basis PiT           0.210    lm    
+18    6    2.2.5.5 E/E Auftragsverwaltung Mastertabelle           0.207    lm    
+18    7    2.3.2  Prozess für einen Reinen E/E Auftrag auf Basis VEEMOS           0.188    lm    
+18    8    2.2.24 Dialog: Massenanlage[LE124] (reine) E/E Aufträge           0.180    lm    1
+18    9    6 Glossar           0.177    lm    
+18    10    2.2.5.3.1 Menüleiste           0.149    lm    5
+18    11    2.2.5.6  E/E Auftragsverwaltung Detailbereich[LE51]           0.111    lm    
+18    12    2.2.18 Dialog: Auswertung Lebenslauf[LE115]           0.104    lm    
+18    13    5.4.2 Auslöser „Zuständigkeitswechsel[LE185]“           0.092    lm    
+18    14    2.2.27  Dialog: Benutzer pflegen           0.089    lm    
+18    15    2.2.5.2.2 Kontextmenü Masterbereich           0.089    lm    
+18    16    2.2.19  Dialog: FiNAS-Fahrzeugdatensätze anzeigen           0.088    lm    
+18    17    2.2.5.1.1 Navigationsbaum           0.083    lm    
+18    18    2.2.5.3.2 Toolbar           0.081    lm    
+18    19    3.1.2 FO: AuthorizationProfile           0.081    lm    
+18    20    2.2.14 Dialog: Kurztest laden           0.079    lm    
+18    21    5.2 Berechtigungskonzept           0.079    lm    
+18    22    2.2.22  Dialog: Messumfängekatalog[LE120]           0.079    lm    
+18    23    2.2.11  Dialog: Reinen[LE97] E/E Auftrag zuordnen           0.077    lm    
+18    24    2.2.13  Dialog: (Neue) Meisterei anlegen/bearbeiten           0.073    lm    
+18    25    2.2.5.4 Zugriffsberechtigung           0.072    lm    
+18    26    2.2.16 Dialog: Ausstattung laden           0.071    lm    
+18    27    2.2.21  Dialog: Kontierungsverwaltung[LE119]           0.070    lm    
+18    28    5.3.2 Explizites Sperren           0.067    lm    
+18    29    2.2.10 Dialog: Auftrag anzeigen[LE95]           0.066    lm    
+18    30    2.3.5  Prozess bei diversen Zielzuständen           0.061    lm    
+18    31    2.2.12  Dialog: Zuordnung[LE98] HW/SW Umbaumeisterei           0.060    lm    
+18    32    2.3  Auftragstatus           0.060    lm    
+18    33    2.2.17 Dialog: Ausstattung anzeigen           0.059    lm    
+18    34    2.2.8  Dialog: Auftragsinhalte[LE93] übernehmen           0.059    lm    
+18    35    2.3.3  Prozess für Stornierung           0.057    lm    
+18    36    2.2.5.2.1 Kontextmenü Navigationsbaum[LE26]           0.054    lm    
+18    37    5.5 Archivierungskonzept[LE187]           0.053    lm    
+18    38    2.2.9 Dialog: Fahrzeughistorie[LE94]           0.053    lm    
+18    39    2.2.15  Dialog: Kurztest anzeigen           0.049    lm    
+18    40    5.4.1 Auslöser[LE184] „Statuswechsel“ und „PIT Auftragseingang“       0.047    lm        
+18    41    2.2.5.1.2 Tabellenspalten           0.043    lm    
+18    42    2.2.1.1 Detailbereich allgemein           0.041    lm    
+18    43    2.2.29  Dialog: Info[LE155]           0.038    lm    
+18    44    2.2.3 Zugriff           0.036    lm    
+18    45    2.2.7.2.1 Dialog: Montageberichtkatalog           0.036    lm    
+18    46    2.1.1  Benutzerrechte           0.036    lm    
+18    47    1.2 Prozessbeschreibung           0.035    lm    
+18    48    2.3.4  Prozess für Ablehung           0.032    lm    
+18    49    3.1.3 FO: Configuration           0.031    lm    
+18    50    2.2.6 Offener Auftrag – Hinweismeldung           0.030    lm    
+18    51    3.1.1 FO: User           0.030    lm    
+18    52    5.1.3 Paralleles Anlegen von Positionen           0.027    lm    
+18    53    2.1.18 Datumsformat           0.024    lm    
+18    54    5.1 Kommunikation und  Positionsabgleich zwischen PiT und der Auftragsverwaltung[LE179] zu Montageberichten[LE180]           0.024    lm    
+18    55    5.1.1 Richtung: PiT zu VEEMOS           0.023    lm    
+18    56    2.1.12  Enablement und Sichtbarkeit           0.022    lm    
+18    57    2.1.3 Sortieren von Tabellen           0.021    lm    
+18    58    5.1.2 Richtung: VEEMOS zu PiT           0.021    lm    
+18    59    2.1.4  Spaltenbreiten und -positionen in Tabellen           0.021    lm    
+18    60    2.1.6 Benannte Sichten von Tabellen           0.021    lm    
+18    61    4 Externe Schnittstellen           0.020    lm    
+18    62    2.1.5  Ein und Ausblenden von Tabellenspalten           0.020    lm    
+18    63    2.1.8 Export von Tabelleninhalten           0.020    lm    
+18    64    2.1.19 FiNAS-Nummernformat           0.020    lm    
+18    65    2.2.4 Synchronisierung           0.020    lm    
+18    66    2.1.10 Filtern von Auswahllisten           0.020    lm    
+18    67    5.3 Sperrkonzept           0.020    lm    
+18    68    2.1.15 Spracheinstellung           0.020    lm    
+18    69    2.1.20 E/E Auftrag-Nummernformat           0.019    lm    
+18    70    2.1.16 Auflösung und Fenstergröße           0.019    lm    
+18    71    5 Technische Aspekte[LE178]           0.019    lm    
+18    72    2.1.2 Filtern von Tabellen           0.019    lm    
+18    73    2.2.2 Allgemeine Dialoge           0.019    lm    
+18    74    1.1 Ausgangssituation           0.019    lm    
+18    75    2.2.5.3 Kopfbereich           0.019    lm    
+18    76    5.3.1  Optimistisches Sperren           0.019    lm    
+18    77    2.2.1 Master- und Detailbereich           0.019    lm    
+18    78    2.2.26  Dialog: Benutzer verwalten           0.018    lm    
+18    79    2.2.28  Dialog: Baureihen zuordnen           0.018    lm    
+18    80    2.2 Oberflächen           0.018    lm    
+18    81    2.1.17 Benutzereinstellungen           0.018    lm    
+18    82    2.1.7  Kopieren von Tabelleninhalten           0.018    lm    
+18    83    2.1.14 Internationalisierung           0.018    lm    
+18    84    2.1 Generelle Anforderungen           0.018    lm    
+18    85    2.1.11 Hilfe[LE11]           0.017    lm    
+18    86    2 Navigation und Dialogabläufe           0.017    lm    
+18    87    2.2.5.1 Filter           0.017    lm    
+18    88    2.1.9 Herunterladen von[LE10] Anhängen           0.017    lm    
+18    89    2.1.13 Tab-Reihenfolge           0.017    lm    
+18    90    2.2.5 E/E Auftragsverwaltung           0.016    lm    4
+19    0    2.2.7  Dialog: (Reinen) E/E Auftrag[LE54] anlegen/bearbeiten           0.478    lm    3
+19    1    2.2.23  Dialog: Montageberichtskatalog[LE121]           0.248    lm    1
+19    2    2.2.7.1 Bereich Anhänge           0.234    lm    
+19    3    2.2.7.2 Dialog: Montagebericht bearbeiten & anzeigen           0.223    lm    2
+19    4    2.2.25  Dialog: Massenbearbeitung[LE135] von Aufträgen           0.217    lm    
+19    5    2.2.5.5 E/E Auftragsverwaltung Mastertabelle           0.206    lm    
+19    6    2.3.1  Prozess für einen E/E Auftrag auf Basis PiT           0.201    lm    
+19    7    2.3.2  Prozess für einen Reinen E/E Auftrag auf Basis VEEMOS           0.187    lm    
+19    8    2.2.24 Dialog: Massenanlage[LE124] (reine) E/E Aufträge           0.174    lm    
+19    9    6 Glossar           0.169    lm    
+19    10    2.2.5.3.1 Menüleiste           0.148    lm    
+19    11    2.2.5.6  E/E Auftragsverwaltung Detailbereich[LE51]           0.118    lm    
+19    12    2.2.18 Dialog: Auswertung Lebenslauf[LE115]           0.108    lm    
+19    13    5.4.2 Auslöser „Zuständigkeitswechsel[LE185]“           0.095    lm    
+19    14    2.2.27  Dialog: Benutzer pflegen           0.093    lm    
+19    15    2.2.19  Dialog: FiNAS-Fahrzeugdatensätze anzeigen           0.092    lm    
+19    16    5.2 Berechtigungskonzept           0.091    lm    
+19    17    2.2.5.2.2 Kontextmenü Masterbereich           0.089    lm    
+19    18    3.1.2 FO: AuthorizationProfile           0.088    lm    
+19    19    2.2.5.1.1 Navigationsbaum           0.082    lm    
+19    20    2.2.5.3.2 Toolbar           0.081    lm    
+19    21    2.2.14 Dialog: Kurztest laden           0.080    lm    
+19    22    2.2.13  Dialog: (Neue) Meisterei anlegen/bearbeiten           0.077    lm    
+19    23    2.2.5.4 Zugriffsberechtigung           0.077    lm    
+19    24    2.2.22  Dialog: Messumfängekatalog[LE120]           0.074    lm    
+19    25    2.2.16 Dialog: Ausstattung laden           0.074    lm    
+19    26    2.2.21  Dialog: Kontierungsverwaltung[LE119]           0.073    lm    
+19    27    2.2.11  Dialog: Reinen[LE97] E/E Auftrag zuordnen           0.069    lm    
+19    28    5.3.2 Explizites Sperren           0.067    lm    
+19    29    2.3.3  Prozess für Stornierung           0.067    lm    
+19    30    2.3  Auftragstatus           0.067    lm    
+19    31    2.2.5.2.1 Kontextmenü Navigationsbaum[LE26]           0.064    lm    
+19    32    2.2.12  Dialog: Zuordnung[LE98] HW/SW Umbaumeisterei           0.064    lm    
+19    33    2.2.17 Dialog: Ausstattung anzeigen           0.063    lm    
+19    34    2.3.5  Prozess bei diversen Zielzuständen           0.060    lm    
+19    35    2.2.10 Dialog: Auftrag anzeigen[LE95]           0.060    lm    
+19    36    2.2.9 Dialog: Fahrzeughistorie[LE94]           0.060    lm    
+19    37    5.5 Archivierungskonzept[LE187]           0.058    lm    
+19    38    5.4.1 Auslöser[LE184] „Statuswechsel“ und „PIT Auftragseingang“       0.053    lm        
+19    39    2.2.8  Dialog: Auftragsinhalte[LE93] übernehmen           0.052    lm    
+19    40    2.2.15  Dialog: Kurztest anzeigen           0.048    lm    
+19    41    2.2.1.1 Detailbereich allgemein           0.047    lm    
+19    42    2.1.1  Benutzerrechte           0.047    lm    
+19    43    2.2.3 Zugriff           0.046    lm    
+19    44    2.2.5.1.2 Tabellenspalten           0.044    lm    
+19    45    2.3.4  Prozess für Ablehung           0.043    lm    
+19    46    2.2.29  Dialog: Info[LE155]           0.042    lm    
+19    47    1.2 Prozessbeschreibung           0.041    lm    
+19    48    3.1.3 FO: Configuration           0.041    lm    
+19    49    5.1.3 Paralleles Anlegen von Positionen           0.039    lm    
+19    50    3.1.1 FO: User           0.038    lm    
+19    51    2.2.7.2.1 Dialog: Montageberichtkatalog           0.036    lm    4
+19    52    5.1 Kommunikation und  Positionsabgleich zwischen PiT und der Auftragsverwaltung[LE179] zu Montageberichten[LE180]           0.036    lm    
+19    53    5.1.1 Richtung: PiT zu VEEMOS           0.036    lm    
+19    54    4 Externe Schnittstellen           0.035    lm    
+19    55    5.1.2 Richtung: VEEMOS zu PiT           0.035    lm    
+19    56    2.1.6 Benannte Sichten von Tabellen           0.033    lm    
+19    57    5 Technische Aspekte[LE178]           0.033    lm    
+19    58    2.2.5.1 Filter           0.033    lm    
+19    59    2.2.4 Synchronisierung           0.033    lm    
+19    60    5.3.1  Optimistisches Sperren           0.032    lm    
+19    61    2.1.16 Auflösung und Fenstergröße           0.032    lm    
+19    62    2.2.6 Offener Auftrag – Hinweismeldung           0.032    lm    
+19    63    2.1 Generelle Anforderungen           0.032    lm    
+19    64    2.2.28  Dialog: Baureihen zuordnen           0.032    lm    
+19    65    2.2.26  Dialog: Benutzer verwalten           0.032    lm    
+19    66    2.1.12  Enablement und Sichtbarkeit           0.032    lm    
+19    67    2.2 Oberflächen           0.032    lm    
+19    68    2.1.17 Benutzereinstellungen           0.032    lm    
+19    69    2.1.20 E/E Auftrag-Nummernformat           0.032    lm    
+19    70    2.2.1 Master- und Detailbereich           0.032    lm    
+19    71    2.1.19 FiNAS-Nummernformat           0.032    lm    
+19    72    2.1.8 Export von Tabelleninhalten           0.032    lm    
+19    73    2.1.3 Sortieren von Tabellen           0.032    lm    
+19    74    2 Navigation und Dialogabläufe           0.032    lm    
+19    75    5.3 Sperrkonzept           0.031    lm    
+19    76    2.1.5  Ein und Ausblenden von Tabellenspalten           0.031    lm    
+19    77    2.1.4  Spaltenbreiten und -positionen in Tabellen           0.031    lm    
+19    78    2.1.14 Internationalisierung           0.031    lm    
+19    79    2.2.5.3 Kopfbereich           0.031    lm    
+19    80    2.2.2 Allgemeine Dialoge           0.031    lm    
+19    81    2.1.7  Kopieren von Tabelleninhalten           0.030    lm    
+19    82    2.1.2 Filtern von Tabellen           0.030    lm    
+19    83    1.1 Ausgangssituation           0.030    lm    
+19    84    2.1.15 Spracheinstellung           0.030    lm    
+19    85    2.1.18 Datumsformat           0.030    lm    
+19    86    2.1.9 Herunterladen von[LE10] Anhängen           0.029    lm    
+19    87    2.1.13 Tab-Reihenfolge           0.029    lm    
+19    88    2.1.11 Hilfe[LE11]           0.028    lm    
+19    89    2.2.5 E/E Auftragsverwaltung           0.028    lm    5
+19    90    2.1.10 Filtern von Auswahllisten           0.027    lm    
+20    0    2.2.7  Dialog: (Reinen) E/E Auftrag[LE54] anlegen/bearbeiten           0.481    lm    
+20    1    2.2.23  Dialog: Montageberichtskatalog[LE121]           0.258    lm    3
+20    2    2.2.7.1 Bereich Anhänge           0.246    lm    
+20    3    2.2.7.2 Dialog: Montagebericht bearbeiten & anzeigen           0.245    lm    
+20    4    2.2.25  Dialog: Massenbearbeitung[LE135] von Aufträgen           0.220    lm    
+20    5    2.3.1  Prozess für einen E/E Auftrag auf Basis PiT           0.209    lm    
+20    6    2.2.5.5 E/E Auftragsverwaltung Mastertabelle           0.201    lm    
+20    7    2.3.2  Prozess für einen Reinen E/E Auftrag auf Basis VEEMOS           0.189    lm    5
+20    8    2.2.24 Dialog: Massenanlage[LE124] (reine) E/E Aufträge           0.182    lm    
+20    9    6 Glossar           0.175    lm    
+20    10    2.2.5.3.1 Menüleiste           0.151    lm    
+20    11    2.2.5.6  E/E Auftragsverwaltung Detailbereich[LE51]           0.111    lm    
+20    12    2.2.18 Dialog: Auswertung Lebenslauf[LE115]           0.104    lm    
+20    13    2.2.27  Dialog: Benutzer pflegen           0.097    lm    
+20    14    2.2.19  Dialog: FiNAS-Fahrzeugdatensätze anzeigen           0.094    lm    
+20    15    5.4.2 Auslöser „Zuständigkeitswechsel[LE185]“           0.090    lm    
+20    16    2.2.5.2.2 Kontextmenü Masterbereich           0.089    lm    
+20    17    5.2 Berechtigungskonzept           0.087    lm    
+20    18    3.1.2 FO: AuthorizationProfile           0.086    lm    
+20    19    2.2.5.1.1 Navigationsbaum           0.083    lm    
+20    20    2.2.5.4 Zugriffsberechtigung           0.083    lm    
+20    21    2.2.5.3.2 Toolbar           0.081    lm    
+20    22    2.2.22  Dialog: Messumfängekatalog[LE120]           0.079    lm    
+20    23    2.2.14 Dialog: Kurztest laden           0.078    lm    1
+20    24    2.2.16 Dialog: Ausstattung laden           0.076    lm    4
+20    25    2.2.11  Dialog: Reinen[LE97] E/E Auftrag zuordnen           0.076    lm    
+20    26    2.2.13  Dialog: (Neue) Meisterei anlegen/bearbeiten           0.074    lm    
+20    27    2.2.21  Dialog: Kontierungsverwaltung[LE119]           0.073    lm    
+20    28    2.2.10 Dialog: Auftrag anzeigen[LE95]           0.068    lm    
+20    29    5.3.2 Explizites Sperren           0.068    lm    
+20    30    2.3.5  Prozess bei diversen Zielzuständen           0.067    lm    
+20    31    2.2.17 Dialog: Ausstattung anzeigen           0.066    lm    
+20    32    2.3  Auftragstatus           0.063    lm    
+20    33    2.2.12  Dialog: Zuordnung[LE98] HW/SW Umbaumeisterei           0.061    lm    
+20    34    2.2.8  Dialog: Auftragsinhalte[LE93] übernehmen           0.061    lm    
+20    35    2.3.3  Prozess für Stornierung           0.058    lm    
+20    36    2.2.5.2.1 Kontextmenü Navigationsbaum[LE26]           0.058    lm    
+20    37    2.2.9 Dialog: Fahrzeughistorie[LE94]           0.056    lm    
+20    38    5.5 Archivierungskonzept[LE187]           0.056    lm    
+20    39    2.2.5.1.2 Tabellenspalten           0.049    lm    
+20    40    5.4.1 Auslöser[LE184] „Statuswechsel“ und „PIT Auftragseingang“       0.045    lm        
+20    41    2.2.15  Dialog: Kurztest anzeigen           0.044    lm    2
+20    42    2.2.3 Zugriff           0.044    lm    
+20    43    2.2.29  Dialog: Info[LE155]           0.044    lm    
+20    44    2.2.1.1 Detailbereich allgemein           0.042    lm    
+20    45    2.2.7.2.1 Dialog: Montageberichtkatalog           0.040    lm    
+20    46    2.1.1  Benutzerrechte           0.039    lm    
+20    47    1.2 Prozessbeschreibung           0.038    lm    
+20    48    3.1.1 FO: User           0.035    lm    
+20    49    2.3.4  Prozess für Ablehung           0.035    lm    
+20    50    2.2.6 Offener Auftrag – Hinweismeldung           0.033    lm    
+20    51    3.1.3 FO: Configuration           0.033    lm    
+20    52    5.1.3 Paralleles Anlegen von Positionen           0.031    lm    
+20    53    5.1.1 Richtung: PiT zu VEEMOS           0.029    lm    
+20    54    2.1.18 Datumsformat           0.028    lm    
+20    55    4 Externe Schnittstellen           0.027    lm    
+20    56    5.1 Kommunikation und  Positionsabgleich zwischen PiT und der Auftragsverwaltung[LE179] zu Montageberichten[LE180]           0.027    lm    
+20    57    5.1.2 Richtung: VEEMOS zu PiT           0.027    lm    
+20    58    2.1.12  Enablement und Sichtbarkeit           0.026    lm    
+20    59    2.1.3 Sortieren von Tabellen           0.026    lm    
+20    60    5.3 Sperrkonzept           0.026    lm    
+20    61    2.1 Generelle Anforderungen           0.025    lm    
+20    62    2.1.8 Export von Tabelleninhalten           0.025    lm    
+20    63    5 Technische Aspekte[LE178]           0.025    lm    
+20    64    5.3.1  Optimistisches Sperren           0.025    lm    
+20    65    2.1.20 E/E Auftrag-Nummernformat           0.025    lm    
+20    66    2.2.5.1 Filter           0.025    lm    
+20    67    2.1.4  Spaltenbreiten und -positionen in Tabellen           0.025    lm    
+20    68    2.1.6 Benannte Sichten von Tabellen           0.025    lm    
+20    69    2.2.2 Allgemeine Dialoge           0.024    lm    
+20    70    2.1.5  Ein und Ausblenden von Tabellenspalten           0.024    lm    
+20    71    2.2.26  Dialog: Benutzer verwalten           0.024    lm    
+20    72    2.1.17 Benutzereinstellungen           0.024    lm    
+20    73    2.2 Oberflächen           0.024    lm    
+20    74    2.1.14 Internationalisierung           0.024    lm    
+20    75    2 Navigation und Dialogabläufe           0.024    lm    
+20    76    2.1.19 FiNAS-Nummernformat           0.024    lm    
+20    77    2.1.10 Filtern von Auswahllisten           0.024    lm    
+20    78    2.2.5.3 Kopfbereich           0.024    lm    
+20    79    2.1.2 Filtern von Tabellen           0.024    lm    
+20    80    2.2.5 E/E Auftragsverwaltung           0.024    lm    
+20    81    2.2.28  Dialog: Baureihen zuordnen           0.024    lm    
+20    82    2.1.11 Hilfe[LE11]           0.024    lm    
+20    83    2.1.16 Auflösung und Fenstergröße           0.024    lm    
+20    84    2.1.15 Spracheinstellung           0.024    lm    
+20    85    2.2.1 Master- und Detailbereich           0.023    lm    
+20    86    2.2.4 Synchronisierung           0.023    lm    
+20    87    2.1.7  Kopieren von Tabelleninhalten           0.023    lm    
+20    88    2.1.13 Tab-Reihenfolge           0.023    lm    
+20    89    2.1.9 Herunterladen von[LE10] Anhängen           0.023    lm    
+20    90    1.1 Ausgangssituation           0.022    lm    
+22    0    2.2.7  Dialog: (Reinen) E/E Auftrag[LE54] anlegen/bearbeiten           0.476    lm    2
+22    1    2.2.23  Dialog: Montageberichtskatalog[LE121]           0.259    lm    
+22    2    2.2.7.1 Bereich Anhänge           0.240    lm    
+22    3    2.2.7.2 Dialog: Montagebericht bearbeiten & anzeigen           0.239    lm    
+22    4    2.2.25  Dialog: Massenbearbeitung[LE135] von Aufträgen           0.213    lm    4
+22    5    2.3.1  Prozess für einen E/E Auftrag auf Basis PiT           0.198    lm    
+22    6    2.2.5.5 E/E Auftragsverwaltung Mastertabelle           0.195    lm    
+22    7    2.3.2  Prozess für einen Reinen E/E Auftrag auf Basis VEEMOS           0.176    lm    
+22    8    6 Glossar           0.176    lm    
+22    9    2.2.24 Dialog: Massenanlage[LE124] (reine) E/E Aufträge           0.173    lm    
+22    10    2.2.5.3.1 Menüleiste           0.147    lm    
+22    11    2.2.5.6  E/E Auftragsverwaltung Detailbereich[LE51]           0.107    lm    
+22    12    2.2.18 Dialog: Auswertung Lebenslauf[LE115]           0.103    lm    
+22    13    2.2.19  Dialog: FiNAS-Fahrzeugdatensätze anzeigen           0.091    lm    
+22    14    2.2.27  Dialog: Benutzer pflegen           0.091    lm    
+22    15    5.4.2 Auslöser „Zuständigkeitswechsel[LE185]“           0.090    lm    
+22    16    2.2.5.2.2 Kontextmenü Masterbereich           0.088    lm    
+22    17    3.1.2 FO: AuthorizationProfile           0.087    lm    
+22    18    2.2.5.3.2 Toolbar           0.083    lm    
+22    19    2.2.14 Dialog: Kurztest laden           0.083    lm    
+22    20    2.2.5.1.1 Navigationsbaum           0.082    lm    
+22    21    5.2 Berechtigungskonzept           0.082    lm    
+22    22    2.2.22  Dialog: Messumfängekatalog[LE120]           0.079    lm    
+22    23    2.2.5.4 Zugriffsberechtigung           0.078    lm    
+22    24    2.2.16 Dialog: Ausstattung laden           0.076    lm    
+22    25    2.2.11  Dialog: Reinen[LE97] E/E Auftrag zuordnen           0.074    lm    1
+22    26    2.2.13  Dialog: (Neue) Meisterei anlegen/bearbeiten           0.074    lm    
+22    27    2.2.21  Dialog: Kontierungsverwaltung[LE119]           0.072    lm    
+22    28    5.3.2 Explizites Sperren           0.067    lm    5
+22    29    2.2.10 Dialog: Auftrag anzeigen[LE95]           0.066    lm    
+22    30    2.2.17 Dialog: Ausstattung anzeigen           0.066    lm    
+22    31    2.2.12  Dialog: Zuordnung[LE98] HW/SW Umbaumeisterei           0.061    lm    
+22    32    2.2.8  Dialog: Auftragsinhalte[LE93] übernehmen           0.060    lm    
+22    33    2.3  Auftragstatus           0.059    lm    
+22    34    2.3.5  Prozess bei diversen Zielzuständen           0.059    lm    
+22    35    5.5 Archivierungskonzept[LE187]           0.055    lm    
+22    36    2.2.5.2.1 Kontextmenü Navigationsbaum[LE26]           0.054    lm    
+22    37    2.2.9 Dialog: Fahrzeughistorie[LE94]           0.054    lm    
+22    38    2.2.15  Dialog: Kurztest anzeigen           0.052    lm    
+22    39    2.3.3  Prozess für Stornierung           0.049    lm    
+22    40    2.2.5.1.2 Tabellenspalten           0.048    lm    
+22    41    2.2.29  Dialog: Info[LE155]           0.047    lm    
+22    42    5.4.1 Auslöser[LE184] „Statuswechsel“ und „PIT Auftragseingang“       0.046    lm        
+22    43    2.2.1.1 Detailbereich allgemein           0.046    lm    
+22    44    2.2.3 Zugriff           0.043    lm    
+22    45    2.1.1  Benutzerrechte           0.042    lm    
+22    46    2.2.7.2.1 Dialog: Montageberichtkatalog           0.038    lm    
+22    47    3.1.1 FO: User           0.038    lm    
+22    48    1.2 Prozessbeschreibung           0.038    lm    
+22    49    5.1.3 Paralleles Anlegen von Positionen           0.033    lm    
+22    50    2.2.6 Offener Auftrag – Hinweismeldung           0.032    lm    
+22    51    3.1.3 FO: Configuration           0.031    lm    
+22    52    5.1 Kommunikation und  Positionsabgleich zwischen PiT und der Auftragsverwaltung[LE179] zu Montageberichten[LE180]           0.031    lm    
+22    53    2.1.18 Datumsformat           0.031    lm    
+22    54    5.1.1 Richtung: PiT zu VEEMOS           0.031    lm    
+22    55    4 Externe Schnittstellen           0.029    lm    
+22    56    2.1.4  Spaltenbreiten und -positionen in Tabellen           0.029    lm    
+22    57    5.1.2 Richtung: VEEMOS zu PiT           0.029    lm    
+22    58    2.1.6 Benannte Sichten von Tabellen           0.028    lm    
+22    59    2.1.8 Export von Tabelleninhalten           0.028    lm    
+22    60    2.1.5  Ein und Ausblenden von Tabellenspalten           0.028    lm    
+22    61    2.3.4  Prozess für Ablehung           0.028    lm    
+22    62    2.1.12  Enablement und Sichtbarkeit           0.028    lm    
+22    63    2.1.3 Sortieren von Tabellen           0.028    lm    
+22    64    2.1.16 Auflösung und Fenstergröße           0.027    lm    
+22    65    2.2.2 Allgemeine Dialoge           0.027    lm    
+22    66    2.2.5.3 Kopfbereich           0.027    lm    
+22    67    2.2.26  Dialog: Benutzer verwalten           0.027    lm    
+22    68    5.3.1  Optimistisches Sperren           0.027    lm    
+22    69    2.2 Oberflächen           0.027    lm    
+22    70    2.1.17 Benutzereinstellungen           0.027    lm    
+22    71    1.1 Ausgangssituation           0.027    lm    
+22    72    5 Technische Aspekte[LE178]           0.027    lm    
+22    73    2.2.1 Master- und Detailbereich           0.027    lm    
+22    74    2.1 Generelle Anforderungen           0.027    lm    
+22    75    2.1.2 Filtern von Tabellen           0.026    lm    
+22    76    2.2.28  Dialog: Baureihen zuordnen           0.026    lm    
+22    77    2.1.15 Spracheinstellung           0.026    lm    
+22    78    2.1.11 Hilfe[LE11]           0.026    lm    
+22    79    2.1.10 Filtern von Auswahllisten           0.026    lm    
+22    80    5.3 Sperrkonzept           0.026    lm    
+22    81    2.1.19 FiNAS-Nummernformat           0.026    lm    
+22    82    2.1.14 Internationalisierung           0.026    lm    
+22    83    2.1.20 E/E Auftrag-Nummernformat           0.025    lm    
+22    84    2.2.5.1 Filter           0.025    lm    
+22    85    2.1.7  Kopieren von Tabelleninhalten           0.025    lm    
+22    86    2 Navigation und Dialogabläufe           0.025    lm    
+22    87    2.2.5 E/E Auftragsverwaltung           0.023    lm    3
+22    88    2.2.4 Synchronisierung           0.023    lm    
+22    89    2.1.13 Tab-Reihenfolge           0.022    lm    
+22    90    2.1.9 Herunterladen von[LE10] Anhängen           0.020    lm    
+23    0    2.2.7  Dialog: (Reinen) E/E Auftrag[LE54] anlegen/bearbeiten           0.454    lm    2
+23    1    2.2.23  Dialog: Montageberichtskatalog[LE121]           0.248    lm    
+23    2    2.2.7.1 Bereich Anhänge           0.234    lm    
+23    3    2.2.7.2 Dialog: Montagebericht bearbeiten & anzeigen           0.225    lm    
+23    4    2.2.25  Dialog: Massenbearbeitung[LE135] von Aufträgen           0.207    lm    4
+23    5    2.3.1  Prozess für einen E/E Auftrag auf Basis PiT           0.188    lm    
+23    6    2.2.5.5 E/E Auftragsverwaltung Mastertabelle           0.181    lm    
+23    7    6 Glossar           0.178    lm    
+23    8    2.3.2  Prozess für einen Reinen E/E Auftrag auf Basis VEEMOS           0.170    lm    
+23    9    2.2.24 Dialog: Massenanlage[LE124] (reine) E/E Aufträge           0.167    lm    
+23    10    2.2.5.3.1 Menüleiste           0.139    lm    
+23    11    2.2.5.6  E/E Auftragsverwaltung Detailbereich[LE51]           0.107    lm    
+23    12    2.2.18 Dialog: Auswertung Lebenslauf[LE115]           0.105    lm    
+23    13    2.2.19  Dialog: FiNAS-Fahrzeugdatensätze anzeigen           0.100    lm    
+23    14    2.2.27  Dialog: Benutzer pflegen           0.095    lm    
+23    15    3.1.2 FO: AuthorizationProfile           0.094    lm    
+23    16    5.4.2 Auslöser „Zuständigkeitswechsel[LE185]“           0.093    lm    
+23    17    2.2.5.4 Zugriffsberechtigung           0.091    lm    
+23    18    2.2.5.3.2 Toolbar           0.086    lm    
+23    19    2.2.5.2.2 Kontextmenü Masterbereich           0.086    lm    
+23    20    2.2.5.1.1 Navigationsbaum           0.081    lm    
+23    21    2.2.14 Dialog: Kurztest laden           0.080    lm    
+23    22    5.2 Berechtigungskonzept           0.078    lm    
+23    23    2.2.16 Dialog: Ausstattung laden           0.076    lm    
+23    24    2.2.11  Dialog: Reinen[LE97] E/E Auftrag zuordnen           0.075    lm    
+23    25    2.2.22  Dialog: Messumfängekatalog[LE120]           0.075    lm    
+23    26    2.2.13  Dialog: (Neue) Meisterei anlegen/bearbeiten           0.070    lm    
+23    27    2.2.17 Dialog: Ausstattung anzeigen           0.068    lm    
+23    28    5.3.2 Explizites Sperren           0.068    lm    1
+23    29    2.2.21  Dialog: Kontierungsverwaltung[LE119]           0.067    lm    
+23    30    2.2.10 Dialog: Auftrag anzeigen[LE95]           0.065    lm    
+23    31    2.3  Auftragstatus           0.063    lm    
+23    32    2.3.5  Prozess bei diversen Zielzuständen           0.062    lm    
+23    33    2.2.8  Dialog: Auftragsinhalte[LE93] übernehmen           0.062    lm    
+23    34    2.2.15  Dialog: Kurztest anzeigen           0.062    lm    
+23    35    2.2.12  Dialog: Zuordnung[LE98] HW/SW Umbaumeisterei           0.061    lm    
+23    36    5.5 Archivierungskonzept[LE187]           0.060    lm    
+23    37    2.2.9 Dialog: Fahrzeughistorie[LE94]           0.059    lm    
+23    38    2.2.5.1.2 Tabellenspalten           0.058    lm    
+23    39    2.2.5.2.1 Kontextmenü Navigationsbaum[LE26]           0.056    lm    
+23    40    2.3.3  Prozess für Stornierung           0.055    lm    
+23    41    2.2.29  Dialog: Info[LE155]           0.054    lm    
+23    42    2.1.1  Benutzerrechte           0.053    lm    
+23    43    2.2.3 Zugriff           0.052    lm    
+23    44    2.2.1.1 Detailbereich allgemein           0.052    lm    
+23    45    5.4.1 Auslöser[LE184] „Statuswechsel“ und „PIT Auftragseingang“       0.052    lm        
+23    46    3.1.1 FO: User           0.051    lm    
+23    47    4 Externe Schnittstellen           0.050    lm    
+23    48    5.1.3 Paralleles Anlegen von Positionen           0.049    lm    
+23    49    5.1.1 Richtung: PiT zu VEEMOS           0.048    lm    
+23    50    5.1.2 Richtung: VEEMOS zu PiT           0.047    lm    
+23    51    5 Technische Aspekte[LE178]           0.047    lm    
+23    52    2.2.7.2.1 Dialog: Montageberichtkatalog           0.047    lm    
+23    53    5.1 Kommunikation und  Positionsabgleich zwischen PiT und der Auftragsverwaltung[LE179] zu Montageberichten[LE180]           0.046    lm    
+23    54    2.1 Generelle Anforderungen           0.046    lm    
+23    55    5.3.1  Optimistisches Sperren           0.046    lm    
+23    56    2.2.2 Allgemeine Dialoge           0.046    lm    
+23    57    2.1.16 Auflösung und Fenstergröße           0.045    lm    
+23    58    2.2.28  Dialog: Baureihen zuordnen           0.045    lm    
+23    59    2.2.26  Dialog: Benutzer verwalten           0.045    lm    
+23    60    2.2 Oberflächen           0.045    lm    
+23    61    2.1.17 Benutzereinstellungen           0.045    lm    
+23    62    2.1.19 FiNAS-Nummernformat           0.045    lm    
+23    63    2.2.1 Master- und Detailbereich           0.045    lm    
+23    64    2.2.5.1 Filter           0.045    lm    
+23    65    2.2.5.3 Kopfbereich           0.045    lm    
+23    66    3.1.3 FO: Configuration           0.045    lm    
+23    67    2.1.20 E/E Auftrag-Nummernformat           0.045    lm    
+23    68    2.1.6 Benannte Sichten von Tabellen           0.044    lm    
+23    69    2.1.14 Internationalisierung           0.044    lm    
+23    70    2 Navigation und Dialogabläufe           0.044    lm    
+23    71    2.1.10 Filtern von Auswahllisten           0.044    lm    
+23    72    5.3 Sperrkonzept           0.044    lm    
+23    73    2.1.8 Export von Tabelleninhalten           0.043    lm    
+23    74    1.2 Prozessbeschreibung           0.043    lm    
+23    75    1.1 Ausgangssituation           0.043    lm    
+23    76    2.1.4  Spaltenbreiten und -positionen in Tabellen           0.043    lm    
+23    77    2.1.5  Ein und Ausblenden von Tabellenspalten           0.043    lm    
+23    78    2.1.11 Hilfe[LE11]           0.042    lm    
+23    79    2.1.12  Enablement und Sichtbarkeit           0.042    lm    
+23    80    2.1.2 Filtern von Tabellen           0.042    lm    
+23    81    2.1.3 Sortieren von Tabellen           0.042    lm    
+23    82    2.1.15 Spracheinstellung           0.042    lm    
+23    83    2.2.6 Offener Auftrag – Hinweismeldung           0.042    lm    
+23    84    2.1.7  Kopieren von Tabelleninhalten           0.041    lm    
+23    85    2.1.18 Datumsformat           0.041    lm    
+23    86    2.2.4 Synchronisierung           0.040    lm    
+23    87    2.2.5 E/E Auftragsverwaltung           0.038    lm    3
+23    88    2.3.4  Prozess für Ablehung           0.037    lm    
+23    89    2.1.13 Tab-Reihenfolge           0.036    lm    
+23    90    2.1.9 Herunterladen von[LE10] Anhängen           0.032    lm    
+24    0    2.2.7  Dialog: (Reinen) E/E Auftrag[LE54] anlegen/bearbeiten           0.476    lm    2
+24    1    2.2.23  Dialog: Montageberichtskatalog[LE121]           0.266    lm    
+24    2    2.2.7.1 Bereich Anhänge           0.253    lm    
+24    3    2.2.7.2 Dialog: Montagebericht bearbeiten & anzeigen           0.246    lm    
+24    4    2.2.25  Dialog: Massenbearbeitung[LE135] von Aufträgen           0.213    lm    3
+24    5    2.3.1  Prozess für einen E/E Auftrag auf Basis PiT           0.212    lm    
+24    6    2.2.5.5 E/E Auftragsverwaltung Mastertabelle           0.192    lm    
+24    7    2.3.2  Prozess für einen Reinen E/E Auftrag auf Basis VEEMOS           0.190    lm    
+24    8    6 Glossar           0.187    lm    
+24    9    2.2.24 Dialog: Massenanlage[LE124] (reine) E/E Aufträge           0.180    lm    4
+24    10    2.2.5.3.1 Menüleiste           0.154    lm    
+24    11    2.2.5.6  E/E Auftragsverwaltung Detailbereich[LE51]           0.110    lm    5
+24    12    2.2.18 Dialog: Auswertung Lebenslauf[LE115]           0.110    lm    
+24    13    2.2.27  Dialog: Benutzer pflegen           0.105    lm    
+24    14    2.2.19  Dialog: FiNAS-Fahrzeugdatensätze anzeigen           0.104    lm    
+24    15    5.4.2 Auslöser „Zuständigkeitswechsel[LE185]“           0.100    lm    
+24    16    2.2.5.4 Zugriffsberechtigung           0.099    lm    
+24    17    2.2.5.2.2 Kontextmenü Masterbereich           0.096    lm    
+24    18    5.2 Berechtigungskonzept           0.094    lm    
+24    19    2.2.5.3.2 Toolbar           0.094    lm    
+24    20    2.2.5.1.1 Navigationsbaum           0.091    lm    
+24    21    3.1.2 FO: AuthorizationProfile           0.088    lm    
+24    22    2.2.14 Dialog: Kurztest laden           0.088    lm    
+24    23    2.2.11  Dialog: Reinen[LE97] E/E Auftrag zuordnen           0.088    lm    
+24    24    2.2.22  Dialog: Messumfängekatalog[LE120]           0.085    lm    
+24    25    2.2.13  Dialog: (Neue) Meisterei anlegen/bearbeiten           0.083    lm    
+24    26    2.2.16 Dialog: Ausstattung laden           0.083    lm    
+24    27    2.2.21  Dialog: Kontierungsverwaltung[LE119]           0.079    lm    
+24    28    2.2.10 Dialog: Auftrag anzeigen[LE95]           0.077    lm    
+24    29    5.3.2 Explizites Sperren           0.077    lm    
+24    30    2.2.8  Dialog: Auftragsinhalte[LE93] übernehmen           0.073    lm    
+24    31    2.2.17 Dialog: Ausstattung anzeigen           0.072    lm    
+24    32    2.2.12  Dialog: Zuordnung[LE98] HW/SW Umbaumeisterei           0.072    lm    
+24    33    2.3.5  Prozess bei diversen Zielzuständen           0.068    lm    
+24    34    5.5 Archivierungskonzept[LE187]           0.067    lm    
+24    35    2.2.5.2.1 Kontextmenü Navigationsbaum[LE26]           0.066    lm    
+24    36    2.3  Auftragstatus           0.066    lm    
+24    37    2.2.9 Dialog: Fahrzeughistorie[LE94]           0.064    lm    
+24    38    2.2.15  Dialog: Kurztest anzeigen           0.063    lm    
+24    39    2.3.3  Prozess für Stornierung           0.063    lm    
+24    40    2.2.29  Dialog: Info[LE155]           0.055    lm    
+24    41    2.2.5.1.2 Tabellenspalten           0.055    lm    
+24    42    5.4.1 Auslöser[LE184] „Statuswechsel“ und „PIT Auftragseingang“       0.055    lm        
+24    43    2.1.1  Benutzerrechte           0.052    lm    
+24    44    2.2.3 Zugriff           0.052    lm    
+24    45    2.2.1.1 Detailbereich allgemein           0.051    lm    
+24    46    2.2.7.2.1 Dialog: Montageberichtkatalog           0.050    lm    
+24    47    3.1.1 FO: User           0.047    lm    
+24    48    2.3.4  Prozess für Ablehung           0.043    lm    
+24    49    2.2.6 Offener Auftrag – Hinweismeldung           0.043    lm    
+24    50    3.1.3 FO: Configuration           0.042    lm    
+24    51    2.1.18 Datumsformat           0.042    lm    
+24    52    4 Externe Schnittstellen           0.042    lm    
+24    53    5.3.1  Optimistisches Sperren           0.041    lm    
+24    54    2.2.2 Allgemeine Dialoge           0.041    lm    
+24    55    2.2.28  Dialog: Baureihen zuordnen           0.041    lm    
+24    56    2.2.26  Dialog: Benutzer verwalten           0.041    lm    
+24    57    2.2 Oberflächen           0.041    lm    
+24    58    2.1.17 Benutzereinstellungen           0.041    lm    
+24    59    2.1.14 Internationalisierung           0.041    lm    
+24    60    1.2 Prozessbeschreibung           0.040    lm    
+24    61    2.2.5.3 Kopfbereich           0.040    lm    
+24    62    5.1 Kommunikation und  Positionsabgleich zwischen PiT und der Auftragsverwaltung[LE179] zu Montageberichten[LE180]           0.040    lm    
+24    63    2.2.5.1 Filter           0.040    lm    
+24    64    2.2.1 Master- und Detailbereich           0.039    lm    
+24    65    2.1.16 Auflösung und Fenstergröße           0.039    lm    
+24    66    5 Technische Aspekte[LE178]           0.039    lm    
+24    67    2.1.10 Filtern von Auswahllisten           0.039    lm    
+24    68    5.1.3 Paralleles Anlegen von Positionen           0.038    lm    
+24    69    5.1.2 Richtung: VEEMOS zu PiT           0.038    lm    
+24    70    2 Navigation und Dialogabläufe           0.037    lm    
+24    71    2.1.11 Hilfe[LE11]           0.037    lm    
+24    72    5.3 Sperrkonzept           0.037    lm    
+24    73    2.1 Generelle Anforderungen           0.036    lm    
+24    74    5.1.1 Richtung: PiT zu VEEMOS           0.036    lm    
+24    75    2.1.8 Export von Tabelleninhalten           0.036    lm    
+24    76    2.1.12  Enablement und Sichtbarkeit           0.036    lm    
+24    77    2.1.20 E/E Auftrag-Nummernformat           0.036    lm    
+24    78    2.1.13 Tab-Reihenfolge           0.036    lm    
+24    79    2.1.7  Kopieren von Tabelleninhalten           0.036    lm    
+24    80    2.1.6 Benannte Sichten von Tabellen           0.036    lm    
+24    81    2.1.2 Filtern von Tabellen           0.035    lm    
+24    82    2.1.19 FiNAS-Nummernformat           0.035    lm    
+24    83    2.1.3 Sortieren von Tabellen           0.035    lm    
+24    84    2.1.5  Ein und Ausblenden von Tabellenspalten           0.035    lm    
+24    85    1.1 Ausgangssituation           0.035    lm    
+24    86    2.1.4  Spaltenbreiten und -positionen in Tabellen           0.034    lm    
+24    87    2.1.15 Spracheinstellung           0.034    lm    
+24    88    2.2.4 Synchronisierung           0.034    lm    
+24    89    2.2.5 E/E Auftragsverwaltung           0.034    lm    1
+24    90    2.1.9 Herunterladen von[LE10] Anhängen           0.034    lm    
+26    0    2.2.7  Dialog: (Reinen) E/E Auftrag[LE54] anlegen/bearbeiten           0.482    lm    
+26    1    2.2.23  Dialog: Montageberichtskatalog[LE121]           0.271    lm    
+26    2    2.2.7.2 Dialog: Montagebericht bearbeiten & anzeigen           0.246    lm    
+26    3    2.2.7.1 Bereich Anhänge           0.239    lm    
+26    4    2.2.25  Dialog: Massenbearbeitung[LE135] von Aufträgen           0.219    lm    
+26    5    2.2.5.5 E/E Auftragsverwaltung Mastertabelle           0.213    lm    
+26    6    2.3.1  Prozess für einen E/E Auftrag auf Basis PiT           0.213    lm    
+26    7    2.3.2  Prozess für einen Reinen E/E Auftrag auf Basis VEEMOS           0.198    lm    
+26    8    2.2.24 Dialog: Massenanlage[LE124] (reine) E/E Aufträge           0.191    lm    
+26    9    6 Glossar           0.175    lm    
+26    10    2.2.5.3.1 Menüleiste           0.154    lm    
+26    11    2.2.5.6  E/E Auftragsverwaltung Detailbereich[LE51]           0.122    lm    
+26    12    2.2.18 Dialog: Auswertung Lebenslauf[LE115]           0.110    lm    
+26    13    2.2.27  Dialog: Benutzer pflegen           0.105    lm    
+26    14    5.4.2 Auslöser „Zuständigkeitswechsel[LE185]“           0.103    lm    
+26    15    2.2.19  Dialog: FiNAS-Fahrzeugdatensätze anzeigen           0.101    lm    
+26    16    5.2 Berechtigungskonzept           0.096    lm    5
+26    17    2.2.5.2.2 Kontextmenü Masterbereich           0.093    lm    
+26    18    3.1.2 FO: AuthorizationProfile           0.091    lm    
+26    19    2.2.5.1.1 Navigationsbaum           0.087    lm    
+26    20    2.2.22  Dialog: Messumfängekatalog[LE120]           0.085    lm    
+26    21    2.2.21  Dialog: Kontierungsverwaltung[LE119]           0.085    lm    
+26    22    2.2.13  Dialog: (Neue) Meisterei anlegen/bearbeiten           0.084    lm    
+26    23    2.2.11  Dialog: Reinen[LE97] E/E Auftrag zuordnen           0.083    lm    
+26    24    2.2.14 Dialog: Kurztest laden           0.081    lm    2
+26    25    2.2.5.3.2 Toolbar           0.077    lm    
+26    26    2.2.5.4 Zugriffsberechtigung           0.075    lm    
+26    27    2.2.16 Dialog: Ausstattung laden           0.074    lm    1
+26    28    5.3.2 Explizites Sperren           0.073    lm    
+26    29    2.3  Auftragstatus           0.072    lm    
+26    30    2.2.10 Dialog: Auftrag anzeigen[LE95]           0.071    lm    
+26    31    2.2.12  Dialog: Zuordnung[LE98] HW/SW Umbaumeisterei           0.071    lm    
+26    32    2.3.3  Prozess für Stornierung           0.070    lm    
+26    33    2.2.9 Dialog: Fahrzeughistorie[LE94]           0.066    lm    
+26    34    2.2.17 Dialog: Ausstattung anzeigen           0.065    lm    3
+26    35    2.2.5.2.1 Kontextmenü Navigationsbaum[LE26]           0.065    lm    
+26    36    2.2.8  Dialog: Auftragsinhalte[LE93] übernehmen           0.064    lm    
+26    37    5.5 Archivierungskonzept[LE187]           0.063    lm    
+26    38    2.3.5  Prozess bei diversen Zielzuständen           0.062    lm    
+26    39    5.4.1 Auslöser[LE184] „Statuswechsel“ und „PIT Auftragseingang“       0.056    lm        
+26    40    2.2.15  Dialog: Kurztest anzeigen           0.052    lm    4
+26    41    2.1.1  Benutzerrechte           0.051    lm    
+26    42    2.2.29  Dialog: Info[LE155]           0.049    lm    
+26    43    2.2.5.1.2 Tabellenspalten           0.049    lm    
+26    44    2.2.1.1 Detailbereich allgemein           0.049    lm    
+26    45    2.2.3 Zugriff           0.049    lm    
+26    46    2.3.4  Prozess für Ablehung           0.047    lm    
+26    47    1.2 Prozessbeschreibung           0.047    lm    
+26    48    2.2.7.2.1 Dialog: Montageberichtkatalog           0.046    lm    
+26    49    3.1.3 FO: Configuration           0.042    lm    
+26    50    3.1.1 FO: User           0.041    lm    
+26    51    5.1.3 Paralleles Anlegen von Positionen           0.037    lm    
+26    52    2.2.6 Offener Auftrag – Hinweismeldung           0.035    lm    
+26    53    5.1.1 Richtung: PiT zu VEEMOS           0.035    lm    
+26    54    2.1.18 Datumsformat           0.034    lm    
+26    55    5.1 Kommunikation und  Positionsabgleich zwischen PiT und der Auftragsverwaltung[LE179] zu Montageberichten[LE180]           0.034    lm    
+26    56    5.1.2 Richtung: VEEMOS zu PiT           0.032    lm    
+26    57    2.1.12  Enablement und Sichtbarkeit           0.032    lm    
+26    58    4 Externe Schnittstellen           0.032    lm    
+26    59    2.1.3 Sortieren von Tabellen           0.031    lm    
+26    60    2.1.4  Spaltenbreiten und -positionen in Tabellen           0.031    lm    
+26    61    2.1.9 Herunterladen von[LE10] Anhängen           0.031    lm    
+26    62    2.1 Generelle Anforderungen           0.030    lm    
+26    63    2.1.6 Benannte Sichten von Tabellen           0.030    lm    
+26    64    2.2.5.3 Kopfbereich           0.030    lm    
+26    65    2.1.20 E/E Auftrag-Nummernformat           0.030    lm    
+26    66    2.1.13 Tab-Reihenfolge           0.030    lm    
+26    67    2 Navigation und Dialogabläufe           0.030    lm    
+26    68    2.1.11 Hilfe[LE11]           0.030    lm    
+26    69    5.3 Sperrkonzept           0.030    lm    
+26    70    2.1.8 Export von Tabelleninhalten           0.030    lm    
+26    71    5.3.1  Optimistisches Sperren           0.030    lm    
+26    72    2.2.2 Allgemeine Dialoge           0.030    lm    
+26    73    2.2.26  Dialog: Benutzer verwalten           0.030    lm    
+26    74    2.2.28  Dialog: Baureihen zuordnen           0.030    lm    
+26    75    2.2 Oberflächen           0.030    lm    
+26    76    2.1.17 Benutzereinstellungen           0.030    lm    
+26    77    2.1.15 Spracheinstellung           0.030    lm    
+26    78    2.1.19 FiNAS-Nummernformat           0.029    lm    
+26    79    2.1.5  Ein und Ausblenden von Tabellenspalten           0.029    lm    
+26    80    2.1.2 Filtern von Tabellen           0.029    lm    
+26    81    2.2.4 Synchronisierung           0.029    lm    
+26    82    5 Technische Aspekte[LE178]           0.029    lm    
+26    83    2.1.7  Kopieren von Tabelleninhalten           0.029    lm    
+26    84    2.2.5 E/E Auftragsverwaltung           0.029    lm    
+26    85    2.2.5.1 Filter           0.029    lm    
+26    86    2.1.14 Internationalisierung           0.029    lm    
+26    87    1.1 Ausgangssituation           0.029    lm    
+26    88    2.1.16 Auflösung und Fenstergröße           0.029    lm    
+26    89    2.2.1 Master- und Detailbereich           0.029    lm    
+26    90    2.1.10 Filtern von Auswahllisten           0.025    lm    
+27    0    2.2.7  Dialog: (Reinen) E/E Auftrag[LE54] anlegen/bearbeiten           0.481    lm    
+27    1    2.2.23  Dialog: Montageberichtskatalog[LE121]           0.252    lm    
+27    2    2.2.7.2 Dialog: Montagebericht bearbeiten & anzeigen           0.241    lm    
+27    3    2.2.7.1 Bereich Anhänge           0.238    lm    
+27    4    2.2.25  Dialog: Massenbearbeitung[LE135] von Aufträgen           0.209    lm    
+27    5    2.3.1  Prozess für einen E/E Auftrag auf Basis PiT           0.204    lm    
+27    6    2.2.5.5 E/E Auftragsverwaltung Mastertabelle           0.194    lm    2
+27    7    2.3.2  Prozess für einen Reinen E/E Auftrag auf Basis VEEMOS           0.182    lm    
+27    8    2.2.24 Dialog: Massenanlage[LE124] (reine) E/E Aufträge           0.176    lm    
+27    9    6 Glossar           0.171    lm    
+27    10    2.2.5.3.1 Menüleiste           0.148    lm    
+27    11    2.2.5.6  E/E Auftragsverwaltung Detailbereich[LE51]           0.100    lm    
+27    12    2.2.18 Dialog: Auswertung Lebenslauf[LE115]           0.096    lm    
+27    13    2.2.19  Dialog: FiNAS-Fahrzeugdatensätze anzeigen           0.093    lm    
+27    14    2.2.5.2.2 Kontextmenü Masterbereich           0.088    lm    
+27    15    2.2.27  Dialog: Benutzer pflegen           0.085    lm    4
+27    16    5.4.2 Auslöser „Zuständigkeitswechsel[LE185]“           0.083    lm    
+27    17    2.2.5.4 Zugriffsberechtigung           0.080    lm    
+27    18    2.2.5.3.2 Toolbar           0.080    lm    
+27    19    5.2 Berechtigungskonzept           0.080    lm    1
+27    20    2.2.14 Dialog: Kurztest laden           0.078    lm    
+27    21    2.2.11  Dialog: Reinen[LE97] E/E Auftrag zuordnen           0.076    lm    
+27    22    3.1.2 FO: AuthorizationProfile           0.076    lm    
+27    23    2.2.5.1.1 Navigationsbaum           0.076    lm    
+27    24    2.2.22  Dialog: Messumfängekatalog[LE120]           0.075    lm    
+27    25    2.2.16 Dialog: Ausstattung laden           0.072    lm    
+27    26    2.2.13  Dialog: (Neue) Meisterei anlegen/bearbeiten           0.071    lm    
+27    27    2.2.21  Dialog: Kontierungsverwaltung[LE119]           0.069    lm    
+27    28    2.2.10 Dialog: Auftrag anzeigen[LE95]           0.066    lm    
+27    29    5.3.2 Explizites Sperren           0.063    lm    
+27    30    2.2.8  Dialog: Auftragsinhalte[LE93] übernehmen           0.061    lm    
+27    31    2.3.5  Prozess bei diversen Zielzuständen           0.058    lm    
+27    32    2.2.17 Dialog: Ausstattung anzeigen           0.057    lm    
+27    33    2.2.12  Dialog: Zuordnung[LE98] HW/SW Umbaumeisterei           0.057    lm    
+27    34    2.3  Auftragstatus           0.055    lm    
+27    35    5.5 Archivierungskonzept[LE187]           0.053    lm    
+27    36    2.3.3  Prozess für Stornierung           0.052    lm    
+27    37    2.2.15  Dialog: Kurztest anzeigen           0.051    lm    
+27    38    2.2.5.2.1 Kontextmenü Navigationsbaum[LE26]           0.051    lm    
+27    39    2.2.9 Dialog: Fahrzeughistorie[LE94]           0.051    lm    
+27    40    2.2.5.1.2 Tabellenspalten           0.044    lm    
+27    41    2.2.29  Dialog: Info[LE155]           0.044    lm    
+27    42    2.2.3 Zugriff           0.040    lm    
+27    43    5.4.1 Auslöser[LE184] „Statuswechsel“ und „PIT Auftragseingang“       0.038    lm        
+27    44    2.1.1  Benutzerrechte           0.038    lm    
+27    45    1.2 Prozessbeschreibung           0.038    lm    
+27    46    2.2.1.1 Detailbereich allgemein           0.037    lm    
+27    47    3.1.1 FO: User           0.036    lm    
+27    48    2.2.7.2.1 Dialog: Montageberichtkatalog           0.034    lm    
+27    49    3.1.3 FO: Configuration           0.034    lm    
+27    50    2.3.4  Prozess für Ablehung           0.031    lm    
+27    51    2.2.6 Offener Auftrag – Hinweismeldung           0.029    lm    
+27    52    5.1.3 Paralleles Anlegen von Positionen           0.029    lm    
+27    53    2.2.5.3 Kopfbereich           0.027    lm    
+27    54    4 Externe Schnittstellen           0.026    lm    
+27    55    5 Technische Aspekte[LE178]           0.026    lm    
+27    56    5.1.1 Richtung: PiT zu VEEMOS           0.026    lm    
+27    57    2.2.5.1 Filter           0.026    lm    
+27    58    2.1 Generelle Anforderungen           0.026    lm    
+27    59    2.1.11 Hilfe[LE11]           0.025    lm    
+27    60    5.1 Kommunikation und  Positionsabgleich zwischen PiT und der Auftragsverwaltung[LE179] zu Montageberichten[LE180]           0.025    lm    
+27    61    5.1.2 Richtung: VEEMOS zu PiT           0.025    lm    
+27    62    2.1.18 Datumsformat           0.024    lm    
+27    63    2.1.20 E/E Auftrag-Nummernformat           0.024    lm    
+27    64    2.1.19 FiNAS-Nummernformat           0.024    lm    
+27    65    2.1.8 Export von Tabelleninhalten           0.024    lm    
+27    66    2.1.6 Benannte Sichten von Tabellen           0.023    lm    
+27    67    5.3 Sperrkonzept           0.023    lm    
+27    68    2.1.4  Spaltenbreiten und -positionen in Tabellen           0.023    lm    
+27    69    1.1 Ausgangssituation           0.023    lm    
+27    70    2 Navigation und Dialogabläufe           0.023    lm    
+27    71    2.2.4 Synchronisierung           0.023    lm    
+27    72    2.1.5  Ein und Ausblenden von Tabellenspalten           0.023    lm    
+27    73    2.2.5 E/E Auftragsverwaltung           0.023    lm    3
+27    74    2.1.16 Auflösung und Fenstergröße           0.023    lm    
+27    75    5.3.1  Optimistisches Sperren           0.023    lm    
+27    76    2.2.2 Allgemeine Dialoge           0.023    lm    
+27    77    2.1.7  Kopieren von Tabelleninhalten           0.022    lm    
+27    78    2.2.26  Dialog: Benutzer verwalten           0.022    lm    
+27    79    2.1.10 Filtern von Auswahllisten           0.022    lm    
+27    80    2.2 Oberflächen           0.022    lm    
+27    81    2.1.17 Benutzereinstellungen           0.022    lm    
+27    82    2.1.14 Internationalisierung           0.022    lm    
+27    83    2.2.1 Master- und Detailbereich           0.022    lm    
+27    84    2.1.2 Filtern von Tabellen           0.022    lm    
+27    85    2.1.3 Sortieren von Tabellen           0.022    lm    
+27    86    2.2.28  Dialog: Baureihen zuordnen           0.022    lm    5
+27    87    2.1.13 Tab-Reihenfolge           0.021    lm    
+27    88    2.1.15 Spracheinstellung           0.021    lm    
+27    89    2.1.12  Enablement und Sichtbarkeit           0.021    lm    
+27    90    2.1.9 Herunterladen von[LE10] Anhängen           0.020    lm    
+29    0    2.2.7  Dialog: (Reinen) E/E Auftrag[LE54] anlegen/bearbeiten           0.475    lm    1
+29    1    2.2.23  Dialog: Montageberichtskatalog[LE121]           0.257    lm    
+29    2    2.2.7.2 Dialog: Montagebericht bearbeiten & anzeigen           0.228    lm    2
+29    3    2.2.7.1 Bereich Anhänge           0.225    lm    
+29    4    2.2.25  Dialog: Massenbearbeitung[LE135] von Aufträgen           0.210    lm    3
+29    5    2.2.5.5 E/E Auftragsverwaltung Mastertabelle           0.208    lm    
+29    6    2.3.1  Prozess für einen E/E Auftrag auf Basis PiT           0.200    lm    
+29    7    2.3.2  Prozess für einen Reinen E/E Auftrag auf Basis VEEMOS           0.189    lm    
+29    8    2.2.24 Dialog: Massenanlage[LE124] (reine) E/E Aufträge           0.182    lm    4
+29    9    6 Glossar           0.163    lm    
+29    10    2.2.5.3.1 Menüleiste           0.148    lm    
+29    11    2.2.5.6  E/E Auftragsverwaltung Detailbereich[LE51]           0.122    lm    
+29    12    2.2.18 Dialog: Auswertung Lebenslauf[LE115]           0.111    lm    
+29    13    2.2.27  Dialog: Benutzer pflegen           0.102    lm    
+29    14    2.2.19  Dialog: FiNAS-Fahrzeugdatensätze anzeigen           0.101    lm    
+29    15    5.4.2 Auslöser „Zuständigkeitswechsel[LE185]“           0.101    lm    
+29    16    5.2 Berechtigungskonzept           0.091    lm    
+29    17    3.1.2 FO: AuthorizationProfile           0.090    lm    
+29    18    2.2.5.2.2 Kontextmenü Masterbereich           0.088    lm    
+29    19    2.2.14 Dialog: Kurztest laden           0.081    lm    
+29    20    2.2.5.3.2 Toolbar           0.080    lm    
+29    21    2.2.13  Dialog: (Neue) Meisterei anlegen/bearbeiten           0.078    lm    
+29    22    2.2.5.1.1 Navigationsbaum           0.078    lm    
+29    23    2.2.11  Dialog: Reinen[LE97] E/E Auftrag zuordnen           0.076    lm    
+29    24    2.2.21  Dialog: Kontierungsverwaltung[LE119]           0.075    lm    
+29    25    2.2.22  Dialog: Messumfängekatalog[LE120]           0.075    lm    
+29    26    2.2.16 Dialog: Ausstattung laden           0.075    lm    
+29    27    2.3  Auftragstatus           0.074    lm    
+29    28    2.2.5.4 Zugriffsberechtigung           0.071    lm    
+29    29    2.3.3  Prozess für Stornierung           0.071    lm    
+29    30    5.3.2 Explizites Sperren           0.068    lm    
+29    31    2.2.5.2.1 Kontextmenü Navigationsbaum[LE26]           0.065    lm    
+29    32    2.2.17 Dialog: Ausstattung anzeigen           0.065    lm    
+29    33    2.2.9 Dialog: Fahrzeughistorie[LE94]           0.064    lm    
+29    34    2.2.12  Dialog: Zuordnung[LE98] HW/SW Umbaumeisterei           0.064    lm    
+29    35    2.2.10 Dialog: Auftrag anzeigen[LE95]           0.062    lm    5
+29    36    5.4.1 Auslöser[LE184] „Statuswechsel“ und „PIT Auftragseingang“       0.059    lm        
+29    37    5.5 Archivierungskonzept[LE187]           0.058    lm    
+29    38    2.2.8  Dialog: Auftragsinhalte[LE93] übernehmen           0.057    lm    
+29    39    2.3.5  Prozess bei diversen Zielzuständen           0.055    lm    
+29    40    2.2.15  Dialog: Kurztest anzeigen           0.051    lm    
+29    41    2.2.3 Zugriff           0.049    lm    
+29    42    2.3.4  Prozess für Ablehung           0.048    lm    
+29    43    2.2.1.1 Detailbereich allgemein           0.048    lm    
+29    44    2.1.1  Benutzerrechte           0.048    lm    
+29    45    3.1.3 FO: Configuration           0.045    lm    
+29    46    2.2.29  Dialog: Info[LE155]           0.045    lm    
+29    47    1.2 Prozessbeschreibung           0.045    lm    
+29    48    2.2.7.2.1 Dialog: Montageberichtkatalog           0.044    lm    
+29    49    3.1.1 FO: User           0.042    lm    
+29    50    2.2.5.1.2 Tabellenspalten           0.040    lm    
+29    51    5.1.3 Paralleles Anlegen von Positionen           0.037    lm    
+29    52    4 Externe Schnittstellen           0.035    lm    
+29    53    5.1.1 Richtung: PiT zu VEEMOS           0.035    lm    
+29    54    5.1 Kommunikation und  Positionsabgleich zwischen PiT und der Auftragsverwaltung[LE179] zu Montageberichten[LE180]           0.035    lm    
+29    55    2.2.5.3 Kopfbereich           0.035    lm    
+29    56    2.1.18 Datumsformat           0.034    lm    
+29    57    5.1.2 Richtung: VEEMOS zu PiT           0.034    lm    
+29    58    2.1.20 E/E Auftrag-Nummernformat           0.034    lm    
+29    59    2.1 Generelle Anforderungen           0.034    lm    
+29    60    2.1.8 Export von Tabelleninhalten           0.034    lm    
+29    61    2.1.3 Sortieren von Tabellen           0.033    lm    
+29    62    2.1.6 Benannte Sichten von Tabellen           0.033    lm    
+29    63    2.2.4 Synchronisierung           0.033    lm    
+29    64    2.1.19 FiNAS-Nummernformat           0.033    lm    
+29    65    5.3.1  Optimistisches Sperren           0.033    lm    
+29    66    2.2.28  Dialog: Baureihen zuordnen           0.033    lm    
+29    67    2.2.26  Dialog: Benutzer verwalten           0.033    lm    
+29    68    2.2 Oberflächen           0.033    lm    
+29    69    2.1.17 Benutzereinstellungen           0.033    lm    
+29    70    2.2.5 E/E Auftragsverwaltung           0.033    lm    
+29    71    2.2.2 Allgemeine Dialoge           0.033    lm    
+29    72    5 Technische Aspekte[LE178]           0.033    lm    
+29    73    2.1.14 Internationalisierung           0.032    lm    
+29    74    2.1.4  Spaltenbreiten und -positionen in Tabellen           0.032    lm    
+29    75    2 Navigation und Dialogabläufe           0.032    lm    
+29    76    2.1.5  Ein und Ausblenden von Tabellenspalten           0.032    lm    
+29    77    2.1.2 Filtern von Tabellen           0.032    lm    
+29    78    2.2.1 Master- und Detailbereich           0.032    lm    
+29    79    2.1.16 Auflösung und Fenstergröße           0.032    lm    
+29    80    2.1.11 Hilfe[LE11]           0.032    lm    
+29    81    2.1.12  Enablement und Sichtbarkeit           0.032    lm    
+29    82    1.1 Ausgangssituation           0.031    lm    
+29    83    5.3 Sperrkonzept           0.031    lm    
+29    84    2.1.7  Kopieren von Tabelleninhalten           0.031    lm    
+29    85    2.1.9 Herunterladen von[LE10] Anhängen           0.031    lm    
+29    86    2.2.5.1 Filter           0.031    lm    
+29    87    2.1.15 Spracheinstellung           0.031    lm    
+29    88    2.1.13 Tab-Reihenfolge           0.030    lm    
+29    89    2.2.6 Offener Auftrag – Hinweismeldung           0.030    lm    
+29    90    2.1.10 Filtern von Auswahllisten           0.024    lm    
+30    0    2.2.7  Dialog: (Reinen) E/E Auftrag[LE54] anlegen/bearbeiten           0.480    lm    3
+30    1    2.2.23  Dialog: Montageberichtskatalog[LE121]           0.252    lm    
+30    2    2.2.7.2 Dialog: Montagebericht bearbeiten & anzeigen           0.232    lm    
+30    3    2.2.7.1 Bereich Anhänge           0.228    lm    
+30    4    2.2.25  Dialog: Massenbearbeitung[LE135] von Aufträgen           0.214    lm    
+30    5    2.2.5.5 E/E Auftragsverwaltung Mastertabelle           0.203    lm    
+30    6    2.3.1  Prozess für einen E/E Auftrag auf Basis PiT           0.202    lm    
+30    7    2.3.2  Prozess für einen Reinen E/E Auftrag auf Basis VEEMOS           0.187    lm    
+30    8    2.2.24 Dialog: Massenanlage[LE124] (reine) E/E Aufträge           0.180    lm    
+30    9    6 Glossar           0.165    lm    
+30    10    2.2.5.3.1 Menüleiste           0.146    lm    5
+30    11    2.2.5.6  E/E Auftragsverwaltung Detailbereich[LE51]           0.117    lm    
+30    12    2.2.18 Dialog: Auswertung Lebenslauf[LE115]           0.106    lm    
+30    13    2.2.27  Dialog: Benutzer pflegen           0.097    lm    
+30    14    2.2.19  Dialog: FiNAS-Fahrzeugdatensätze anzeigen           0.095    lm    
+30    15    5.4.2 Auslöser „Zuständigkeitswechsel[LE185]“           0.095    lm    
+30    16    2.2.5.2.2 Kontextmenü Masterbereich           0.087    lm    
+30    17    3.1.2 FO: AuthorizationProfile           0.086    lm    
+30    18    5.2 Berechtigungskonzept           0.085    lm    
+30    19    2.2.5.3.2 Toolbar           0.080    lm    
+30    20    2.2.14 Dialog: Kurztest laden           0.080    lm    
+30    21    2.2.5.1.1 Navigationsbaum           0.078    lm    
+30    22    2.2.11  Dialog: Reinen[LE97] E/E Auftrag zuordnen           0.075    lm    
+30    23    2.2.5.4 Zugriffsberechtigung           0.074    lm    
+30    24    2.2.22  Dialog: Messumfängekatalog[LE120]           0.073    lm    
+30    25    2.2.16 Dialog: Ausstattung laden           0.073    lm    
+30    26    2.2.13  Dialog: (Neue) Meisterei anlegen/bearbeiten           0.072    lm    1
+30    27    2.2.21  Dialog: Kontierungsverwaltung[LE119]           0.070    lm    
+30    28    2.3  Auftragstatus           0.067    lm    
+30    29    5.3.2 Explizites Sperren           0.065    lm    
+30    30    2.3.3  Prozess für Stornierung           0.063    lm    
+30    31    2.2.10 Dialog: Auftrag anzeigen[LE95]           0.062    lm    
+30    32    2.2.17 Dialog: Ausstattung anzeigen           0.061    lm    
+30    33    2.2.5.2.1 Kontextmenü Navigationsbaum[LE26]           0.060    lm    
+30    34    2.2.12  Dialog: Zuordnung[LE98] HW/SW Umbaumeisterei           0.059    lm    2
+30    35    2.2.9 Dialog: Fahrzeughistorie[LE94]           0.058    lm    
+30    36    2.2.8  Dialog: Auftragsinhalte[LE93] übernehmen           0.056    lm    
+30    37    2.3.5  Prozess bei diversen Zielzuständen           0.056    lm    
+30    38    5.5 Archivierungskonzept[LE187]           0.056    lm    
+30    39    5.4.1 Auslöser[LE184] „Statuswechsel“ und „PIT Auftragseingang“       0.052    lm        
+30    40    2.2.15  Dialog: Kurztest anzeigen           0.049    lm    
+30    41    2.1.1  Benutzerrechte           0.045    lm    
+30    42    2.2.29  Dialog: Info[LE155]           0.043    lm    
+30    43    2.2.1.1 Detailbereich allgemein           0.042    lm    
+30    44    2.2.3 Zugriff           0.042    lm    
+30    45    2.3.4  Prozess für Ablehung           0.042    lm    
+30    46    3.1.3 FO: Configuration           0.039    lm    
+30    47    2.2.7.2.1 Dialog: Montageberichtkatalog           0.039    lm    
+30    48    2.2.5.1.2 Tabellenspalten           0.038    lm    
+30    49    1.2 Prozessbeschreibung           0.037    lm    
+30    50    3.1.1 FO: User           0.037    lm    
+30    51    5.1.3 Paralleles Anlegen von Positionen           0.032    lm    
+30    52    5.1 Kommunikation und  Positionsabgleich zwischen PiT und der Auftragsverwaltung[LE179] zu Montageberichten[LE180]           0.030    lm    
+30    53    4 Externe Schnittstellen           0.030    lm    
+30    54    2.2.5.3 Kopfbereich           0.029    lm    
+30    55    2.2.6 Offener Auftrag – Hinweismeldung           0.029    lm    
+30    56    5.1.2 Richtung: VEEMOS zu PiT           0.029    lm    
+30    57    5.1.1 Richtung: PiT zu VEEMOS           0.029    lm    
+30    58    2.1.20 E/E Auftrag-Nummernformat           0.028    lm    
+30    59    2.1.18 Datumsformat           0.028    lm    
+30    60    2.1.8 Export von Tabelleninhalten           0.028    lm    
+30    61    5.3.1  Optimistisches Sperren           0.028    lm    
+30    62    2.2.26  Dialog: Benutzer verwalten           0.028    lm    
+30    63    2.2.28  Dialog: Baureihen zuordnen           0.028    lm    
+30    64    2.1.19 FiNAS-Nummernformat           0.028    lm    
+30    65    2.2 Oberflächen           0.028    lm    
+30    66    2.1.17 Benutzereinstellungen           0.028    lm    
+30    67    2.2.2 Allgemeine Dialoge           0.027    lm    
+30    68    2.1.14 Internationalisierung           0.027    lm    
+30    69    2.1 Generelle Anforderungen           0.027    lm    
+30    70    2.1.3 Sortieren von Tabellen           0.027    lm    
+30    71    5 Technische Aspekte[LE178]           0.027    lm    
+30    72    2.1.6 Benannte Sichten von Tabellen           0.027    lm    
+30    73    2.2.4 Synchronisierung           0.027    lm    
+30    74    2.1.16 Auflösung und Fenstergröße           0.027    lm    
+30    75    2.2.1 Master- und Detailbereich           0.027    lm    
+30    76    2.2.5 E/E Auftragsverwaltung           0.026    lm    4
+30    77    2.1.9 Herunterladen von[LE10] Anhängen           0.026    lm    
+30    78    2.1.4  Spaltenbreiten und -positionen in Tabellen           0.026    lm    
+30    79    2.1.2 Filtern von Tabellen           0.026    lm    
+30    80    2.1.12  Enablement und Sichtbarkeit           0.026    lm    
+30    81    2.1.5  Ein und Ausblenden von Tabellenspalten           0.026    lm    
+30    82    5.3 Sperrkonzept           0.026    lm    
+30    83    2.2.5.1 Filter           0.026    lm    
+30    84    2 Navigation und Dialogabläufe           0.026    lm    
+30    85    2.1.7  Kopieren von Tabelleninhalten           0.026    lm    
+30    86    1.1 Ausgangssituation           0.025    lm    
+30    87    2.1.15 Spracheinstellung           0.025    lm    
+30    88    2.1.13 Tab-Reihenfolge           0.025    lm    
+30    89    2.1.11 Hilfe[LE11]           0.025    lm    
+30    90    2.1.10 Filtern von Auswahllisten           0.022    lm  
